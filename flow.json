@@ -3279,7 +3279,7 @@
                 "t": "set",
                 "p": "src",
                 "pt": "msg",
-                "to": " /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter/radfilm_bbb_akt.gif",
+                "to": " https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif",
                 "tot": "str"
             }
         ],
