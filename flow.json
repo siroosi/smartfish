@@ -4260,7 +4260,7 @@
         "props": [
             {
                 "p": "payload.winddirection",
-                "v": "180",
+                "v": "180.00",
                 "vt": "num"
             }
         ],
