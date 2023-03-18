@@ -2,7 +2,16 @@
     "name": "fishcontrol",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-ip": "1.0.1",
+        "node-red-contrib-pitft-touch": "0.0.2",
+        "node-red-contrib-ui-digital-clock": "1.0.0",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-contrib-ui-media": "1.2.0",
+        "node-red-dashboard": "3.3.1",
+        "node-red-node-ping": "0.3.3",
+        "node-red-contrib-string": "1.0.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
