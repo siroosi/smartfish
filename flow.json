@@ -4180,5 +4180,71 @@
         "x": 910,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "f6f5eafa238a9dd0",
+        "type": "switch",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "22.50",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "22.51",
+                "vt": "num",
+                "v2": "45.00",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "45.01",
+                "vt": "num",
+                "v2": "67.50",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "67.51",
+                "vt": "num",
+                "v2": "90.00",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 630,
+        "y": 60,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "033ea7e829fda05b",
+        "type": "function",
+        "z": "5e246f6c64b79f72",
+        "name": "function 1",
+        "func": "var dir = payload.winddirection\n\nif (dir <= 11, 25)\n    return msg.topic = \"Nord\"\nelse if (dir <= 33, 75)\n    return msg.topic = \"NNO\"\nelse if (dir <= 56, 25\n    return msg.topic = \"NO\"\nelse if (dir <= 78, 75\n    return msg.topic = \"ONO\"\nelse if (dir <= 101, 25\n    return msg.topic = \"Ost\"\nelse if (dir <= 123, 75\n    return msg.topic = \"OSO\"\nelse if (dir <= 146, 25\n    return msg.topic = \"SO\"\nelse if (dir <= 168, 75)\n    return msg.topic = \"SSO\"\nelse if (dir <= 191, 25)\n    return msg.topic = \"Süd\"\nelse if (dir <= 213, 75)\n    return msg.topic = \"SSW\"\nelse if (dir <= 236, 25)\n    return msg.topic = \"SW\"\nelse if (dir <= 258, 75)\n    return msg.topic = \"WSW\"\nelse if (dir <= 281, 25)\n    return msg.topic = \"West\"\nelse if (dir <= 303, 75)\n    return msg.topic = \"WNW\"\nelse if (dir <= 326, 25)\n    return msg.topic = \"NW\"\nelse if (dir <= 348, 75\n    return msg.topic = \"NNW\"\nelse if (dir >= 337, 50\n    return msg.topic = \"Nord\"\nelse\n    return msg.topic = error;\n    end\n",
+        "outputs": 1,
+        "noerr": 27,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 260,
+        "wires": [
+            []
+        ]
     }
 ]
