@@ -3206,7 +3206,7 @@
         "id": "2555f71f5122b4db",
         "type": "exec",
         "z": "5e246f6c64b79f72",
-        "command": "curl -O --output-dir /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif",
+        "command": "curl -#, --progress-bar -O --output-dir /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif",
         "addpay": "",
         "append": "",
         "useSpawn": "true",
@@ -3378,7 +3378,7 @@
         "topic": "100 ",
         "payload": "100 ",
         "payloadType": "str",
-        "x": 540,
+        "x": 580,
         "y": 480,
         "wires": [
             [
@@ -3607,7 +3607,7 @@
         "id": "4a0bccd463a823e4",
         "type": "change",
         "z": "5e246f6c64b79f72",
-        "name": "",
+        "name": "noblink",
         "rules": [
             {
                 "t": "set",
@@ -3622,7 +3622,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 810,
+        "x": 780,
         "y": 280,
         "wires": [
             [
