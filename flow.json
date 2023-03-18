@@ -4231,8 +4231,8 @@
         "width": 3,
         "height": 3,
         "gtype": "donut",
-        "title": "gauge",
-        "label": "units",
+        "title": "Rel.Luftf.",
+        "label": "%",
         "format": "{{payload.humidity}}",
         "min": 0,
         "max": "100",
@@ -4245,7 +4245,7 @@
         "seg2": "80",
         "diff": false,
         "className": "",
-        "x": 930,
+        "x": 940,
         "y": 60,
         "wires": []
     }
