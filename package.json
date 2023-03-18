@@ -10,7 +10,8 @@
         "node-red-contrib-ui-media": "1.2.0",
         "node-red-dashboard": "3.3.1",
         "node-red-node-ping": "0.3.3",
-        "node-red-contrib-string": "1.0.0"
+        "node-red-contrib-string": "1.0.0",
+        "node-red-contrib-ui-artless-gauge": "0.3.12"
     },
     "node-red": {
         "settings": {
