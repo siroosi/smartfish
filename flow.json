@@ -4084,7 +4084,7 @@
         "wires": [
             [
                 "2af161e0c5081970",
-                "3a22cee31fcad9f0"
+                "134bebce82161143"
             ]
         ]
     },
@@ -4131,34 +4131,6 @@
         "statusType": "auto",
         "x": 620,
         "y": 880,
-        "wires": []
-    },
-    {
-        "id": "3a22cee31fcad9f0",
-        "type": "ui_gauge",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "group": "2549cedd67b83eef",
-        "order": 32,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "temp",
-        "label": "°C",
-        "format": "{{payload.tempc}}",
-        "min": " -30",
-        "max": "45",
-        "colors": [
-            "#ffffff",
-            "#3cc600",
-            "#ca3838"
-        ],
-        "seg1": "10",
-        "seg2": "23",
-        "diff": false,
-        "className": "",
-        "x": 610,
-        "y": 940,
         "wires": []
     },
     {
@@ -4220,7 +4192,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 640,
-        "y": 980,
+        "y": 920,
         "wires": []
     }
 ]
