@@ -4230,7 +4230,7 @@
         "order": 13,
         "width": 3,
         "height": 3,
-        "gtype": "wave",
+        "gtype": "gage",
         "title": "Rel.Luftf.",
         "label": "%",
         "format": "{{payload.humidity}}",
