@@ -3767,7 +3767,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "$now([m01])",
+                "to": "$now('[m01]')",
                 "tot": "jsonata"
             }
         ],
