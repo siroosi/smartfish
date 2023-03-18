@@ -3365,20 +3365,16 @@
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "100 ",
+        "topic": "",
         "payload": "100 .0%",
         "payloadType": "str",
-        "x": 590,
+        "x": 580,
         "y": 480,
         "wires": [
             [
