@@ -4095,7 +4095,8 @@
         "wires": [
             [
                 "134bebce82161143",
-                "033ea7e829fda05b"
+                "033ea7e829fda05b",
+                "41c25fa751fbc5ad"
             ]
         ]
     },
@@ -4219,5 +4220,33 @@
                 "c5d07b13df38f4b5"
             ]
         ]
+    },
+    {
+        "id": "41c25fa751fbc5ad",
+        "type": "ui_gauge",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "group": "2549cedd67b83eef",
+        "order": 30,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{payload.humidity}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffff00",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "seg1": "65",
+        "seg2": "80",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 60,
+        "wires": []
     }
 ]
