@@ -3215,7 +3215,7 @@
         "scope": "local",
         "tooltip": "",
         "x": 1070,
-        "y": 640,
+        "y": 180,
         "wires": [
             []
         ]
@@ -3230,7 +3230,7 @@
         "width": 3,
         "height": 1,
         "x": 1070,
-        "y": 680,
+        "y": 220,
         "wires": []
     },
     {
@@ -3253,7 +3253,7 @@
         "to": "",
         "reg": false,
         "x": 910,
-        "y": 640,
+        "y": 180,
         "wires": [
             [
                 "b0ede0269d8bbe42",
@@ -3279,7 +3279,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 470,
-        "y": 680,
+        "y": 220,
         "wires": [
             [
                 "9ec479aa866a6fde"
@@ -3313,7 +3313,7 @@
         "animate": false,
         "className": "",
         "x": 290,
-        "y": 680,
+        "y": 220,
         "wires": [
             [
                 "d60be81f1bd63444"
@@ -3338,7 +3338,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 130,
-        "y": 640,
+        "y": 180,
         "wires": [
             [
                 "880b9dad88d8259e",
@@ -3366,7 +3366,7 @@
         "to": "",
         "reg": false,
         "x": 910,
-        "y": 680,
+        "y": 220,
         "wires": [
             [
                 "346d954bc9902978"
@@ -3386,7 +3386,7 @@
         "oldrc": false,
         "name": "gif dnload",
         "x": 280,
-        "y": 200,
+        "y": 400,
         "wires": [
             [],
             [
@@ -3414,7 +3414,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 240,
+        "y": 440,
         "wires": [
             [
                 "0d4d1dd0280a2edd",
@@ -3440,7 +3440,7 @@
         "payload": "100.0%",
         "payloadType": "str",
         "x": 290,
-        "y": 260,
+        "y": 460,
         "wires": [
             [
                 "e5218ba6dc918682"
@@ -3480,7 +3480,7 @@
         "showGlow": true,
         "name": "",
         "x": 1230,
-        "y": 240,
+        "y": 440,
         "wires": []
     },
     {
@@ -3503,7 +3503,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 300,
+        "y": 500,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3530,7 +3530,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 240,
+        "y": 440,
         "wires": [
             [
                 "3cde9b74e2cf03a6",
@@ -3556,7 +3556,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 910,
-        "y": 300,
+        "y": 500,
         "wires": [
             [
                 "206239dd1ce5331f"
@@ -3581,7 +3581,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1050,
-        "y": 300,
+        "y": 500,
         "wires": [
             [
                 "3cde9b74e2cf03a6"
@@ -3606,7 +3606,7 @@
         "payload": "0",
         "payloadType": "num",
         "x": 130,
-        "y": 160,
+        "y": 360,
         "wires": [
             [
                 "65402a2498ef9275",
@@ -3638,7 +3638,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 460,
-        "y": 280,
+        "y": 480,
         "wires": [
             [
                 "0d4d1dd0280a2edd"
@@ -3665,7 +3665,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 260,
+        "y": 460,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3697,7 +3697,7 @@
         "object": "msg",
         "objectout": "msg",
         "x": 610,
-        "y": 180,
+        "y": 380,
         "wires": [
             [
                 "11d19dadf193c9cd"
@@ -3745,7 +3745,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 770,
-        "y": 160,
+        "y": 360,
         "wires": []
     },
     {
@@ -3766,7 +3766,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 180,
+        "y": 380,
         "wires": [
             [
                 "9dc74d152151d045"
@@ -3793,7 +3793,7 @@
         "to": "",
         "reg": false,
         "x": 620,
-        "y": 680,
+        "y": 220,
         "wires": [
             [
                 "6816dcc99b725cf4"
@@ -3833,7 +3833,7 @@
         "repair": false,
         "outputs": 4,
         "x": 750,
-        "y": 680,
+        "y": 220,
         "wires": [
             [
                 "8e337d9b3201b995"
@@ -3856,7 +3856,7 @@
         "name": "display radar",
         "info": "",
         "x": 110,
-        "y": 580,
+        "y": 120,
         "wires": []
     },
     {
@@ -3866,7 +3866,7 @@
         "name": "download radar image",
         "info": "",
         "x": 140,
-        "y": 80,
+        "y": 300,
         "wires": []
     },
     {
@@ -3879,7 +3879,7 @@
             "fcf792f0b28cddd5"
         ],
         "x": 585,
-        "y": 280,
+        "y": 480,
         "wires": []
     },
     {
@@ -3891,7 +3891,7 @@
             "9265e6263cbe685e"
         ],
         "x": 785,
-        "y": 620,
+        "y": 160,
         "wires": [
             [
                 "8e337d9b3201b995"
@@ -3909,7 +3909,7 @@
         "cmdOutputs": 0,
         "killSignal": "SIGTERM",
         "x": 810,
-        "y": 380,
+        "y": 580,
         "wires": [
             []
         ]
@@ -3921,7 +3921,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 340,
+        "y": 540,
         "wires": [
             []
         ]
@@ -3946,7 +3946,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 340,
+        "y": 540,
         "wires": [
             [
                 "a7af5330867cbfad"
@@ -3960,7 +3960,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 380,
+        "y": 580,
         "wires": [
             []
         ]
@@ -3986,7 +3986,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 270,
-        "y": 380,
+        "y": 580,
         "wires": [
             [
                 "60a997f225afe2bb"
@@ -4015,7 +4015,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 380,
+        "y": 580,
         "wires": [
             [
                 "5d6e7b1295d02a96"
@@ -4035,17 +4035,11 @@
         "oldrc": false,
         "name": "ffmpeg",
         "x": 290,
-        "y": 460,
+        "y": 660,
         "wires": [
-            [
-                "b93c679f609d0e57"
-            ],
-            [
-                "d0be2e7201cecb69"
-            ],
-            [
-                "2e42af2bc68841f7"
-            ]
+            [],
+            [],
+            []
         ]
     },
     {
@@ -4070,7 +4064,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 460,
+        "y": 660,
         "wires": [
             [
                 "fc60499c1dd14bdc"
@@ -4078,54 +4072,80 @@
         ]
     },
     {
-        "id": "b93c679f609d0e57",
+        "id": "fc76f3612b629552",
+        "type": "ocr",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "language": "deu",
+        "x": 410,
+        "y": 780,
+        "wires": [
+            [
+                "4eea6747e0c9b091",
+                "80aa77d47da61c50"
+            ]
+        ]
+    },
+    {
+        "id": "4eea6747e0c9b091",
         "type": "debug",
         "z": "5e246f6c64b79f72",
         "name": "debug 1",
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
         "statusType": "auto",
-        "x": 600,
-        "y": 440,
+        "x": 620,
+        "y": 680,
         "wires": []
     },
     {
-        "id": "d0be2e7201cecb69",
-        "type": "debug",
+        "id": "80aa77d47da61c50",
+        "type": "file",
         "z": "5e246f6c64b79f72",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 600,
-        "y": 500,
-        "wires": []
+        "name": "",
+        "filename": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/log.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 810,
+        "y": 780,
+        "wires": [
+            []
+        ]
     },
     {
-        "id": "2e42af2bc68841f7",
-        "type": "debug",
+        "id": "ea58c454eb4083c2",
+        "type": "inject",
         "z": "5e246f6c64b79f72",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 600,
-        "y": 560,
-        "wires": []
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp01.png",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 780,
+        "wires": [
+            [
+                "fc76f3612b629552"
+            ]
+        ]
     }
 ]
