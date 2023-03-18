@@ -4075,9 +4075,7 @@
         "wires": [
             [
                 "134bebce82161143",
-                "c5d07b13df38f4b5",
-                "033ea7e829fda05b",
-                "0d49cd3815c57423"
+                "033ea7e829fda05b"
             ]
         ]
     },
@@ -4165,8 +4163,8 @@
         "width": 5,
         "height": 4,
         "gtype": "compass",
-        "title": "gauge",
-        "label": "units",
+        "title": "{{msg.topic}}",
+        "label": "wind",
         "format": "{{payload.winddirection}}",
         "min": 0,
         "max": "359",
@@ -4179,7 +4177,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 910,
+        "x": 1080,
         "y": 100,
         "wires": []
     },
@@ -4243,105 +4241,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 760,
-        "y": 260,
+        "x": 920,
+        "y": 100,
         "wires": [
             [
-                "c9e28b7bbba81bb5",
-                "bfaf2555ae1ef7f9"
+                "c5d07b13df38f4b5"
             ]
         ]
-    },
-    {
-        "id": "5f373ecf2f23899c",
-        "type": "inject",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "props": [
-            {
-                "p": "payload.winddirection",
-                "v": "180.00",
-                "vt": "num"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 150,
-        "y": 260,
-        "wires": [
-            [
-                "033ea7e829fda05b",
-                "0a3b9be7b769afaa"
-            ]
-        ]
-    },
-    {
-        "id": "c9e28b7bbba81bb5",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload.winddirection",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 920,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "bfaf2555ae1ef7f9",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "topic",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 920,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "0a3b9be7b769afaa",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 360,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "0d49cd3815c57423",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 980,
-        "y": 20,
-        "wires": []
     }
 ]
