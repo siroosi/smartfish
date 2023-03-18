@@ -4189,31 +4189,31 @@
                 "val": -30,
                 "col": "#ffffff",
                 "t": "min",
-                "dot": 0
+                "dot": 2
             },
             {
                 "val": 5,
                 "col": "#0000ff",
                 "t": "sec",
-                "dot": 0
+                "dot": 2
             },
             {
                 "val": 22,
                 "col": "#00ff00",
                 "t": "sec",
-                "dot": 0
+                "dot": 2
             },
             {
                 "val": 25,
                 "col": "#ffff00",
                 "t": "sec",
-                "dot": 0
+                "dot": 2
             },
             {
                 "val": 50,
                 "col": "#ffff00",
                 "t": "max",
-                "dot": 0
+                "dot": 2
             }
         ],
         "lineWidth": 3,
