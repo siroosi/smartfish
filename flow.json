@@ -3908,8 +3908,8 @@
         "cmdArgs": "[\"-version\"]",
         "cmdOutputs": 0,
         "killSignal": "SIGTERM",
-        "x": 470,
-        "y": 460,
+        "x": 810,
+        "y": 380,
         "wires": [
             []
         ]
@@ -3975,7 +3975,7 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "button",
+        "label": "...back",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3992,5 +3992,140 @@
                 "60a997f225afe2bb"
             ]
         ]
+    },
+    {
+        "id": "54397ffe64147527",
+        "type": "inject",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "5d6e7b1295d02a96"
+            ]
+        ]
+    },
+    {
+        "id": "fc60499c1dd14bdc",
+        "type": "exec",
+        "z": "5e246f6c64b79f72",
+        "command": "ffmpeg -i /home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/radfilm_bbb_akt.gif -vsync 0 /home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp%d.png",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "ffmpeg",
+        "x": 290,
+        "y": 460,
+        "wires": [
+            [
+                "b93c679f609d0e57"
+            ],
+            [
+                "d0be2e7201cecb69"
+            ],
+            [
+                "2e42af2bc68841f7"
+            ]
+        ]
+    },
+    {
+        "id": "4512674ecb28a0dc",
+        "type": "inject",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 460,
+        "wires": [
+            [
+                "fc60499c1dd14bdc"
+            ]
+        ]
+    },
+    {
+        "id": "b93c679f609d0e57",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 600,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d0be2e7201cecb69",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 600,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2e42af2bc68841f7",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 600,
+        "y": 560,
+        "wires": []
     }
 ]
