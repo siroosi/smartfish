@@ -4235,7 +4235,7 @@
         "type": "function",
         "z": "5e246f6c64b79f72",
         "name": "function 1",
-        "func": "var dir = msg.payload.winddirection\n\nif (dir <= 11, 25)\n    msg.topic = \"Nord\"\nelse if (dir <= 33, 75)\n    msg.topic = \"NNO\"\nelse if (dir <= 56, 25\n    msg.topic = \"NO\"\nelse if (dir <= 78, 75\n    msg.topic = \"ONO\"\nelse if (dir <= 101, 25\n    msg.topic = \"Ost\"\nelse if (dir <= 123, 75\n    msg.topic = \"OSO\"\nelse if (dir <= 146, 25\n    msg.topic = \"SO\"\nelse if (dir <= 168, 75)\n    msg.topic = \"SSO\"\nelse if (dir <= 191, 25)\n    msg.topic = \"Süd\"\nelse if (dir <= 213, 75)\n    msg.topic = \"SSW\"\nelse if (dir <= 236, 25)\n    msg.topic = \"SW\"\nelse if (dir <= 258, 75)\n    msg.topic = \"WSW\"\nelse if (dir <= 281, 25)\n    msg.topic = \"West\"\nelse if (dir <= 303, 75)\n    msg.topic = \"WNW\"\nelse if (dir <= 326, 25)\n    msg.topic = \"NW\"\nelse if (dir <= 348, 75\n    msg.topic = \"NNW\"\nelse if (dir >= 337, 50\n    msg.topic = \"Nord\"\nelse\n    msg.topic = error;    msg;\nreturn msg;",
+        "func": "var dir = msg.payload.winddirection\n\nif (dir <= 11, 25)\n    msg.topic = \"Nord\"\nelse if (dir <= 33, 75)\n    msg.topic = \"NNO\"\nelse if (dir <= 56, 25\n    msg.topic = \"NO\"\nelse if (dir <= 78, 75\n    msg.topic = \"ONO\"\nelse if (dir <= 101, 25\n    msg.topic = \"Ost\"\nelse if (dir <= 123, 75\n    msg.topic = \"OSO\"\nelse if (dir <= 146, 25\n    msg.topic = \"SO\"\nelse if (dir <= 168, 75)\n    msg.topic = \"SSO\"\nelse if (dir <= 191, 25)\n    msg.topic = \"Süd\"\nelse if (dir <= 213, 75)\n    msg.topic = \"SSW\"\nelse if (dir <= 236, 25)\n    msg.topic = \"SW\"\nelse if (dir <= 258, 75)\n    msg.topic = \"WSW\"\nelse if (dir <= 281, 25)\n    msg.topic = \"West\"\nelse if (dir <= 303, 75)\n    msg.topic = \"WNW\"\nelse if (dir <= 326, 25)\n    msg.topic = \"NW\"\nelse if (dir <= 348, 75\n    msg.topic = \"NNW\"\nelse if (dir >= 337, 50\n    msg.topic = \"Nord\"\nelse\n    msg.topic = error;\nreturn msg;",
         "outputs": 1,
         "noerr": 25,
         "initialize": "",
@@ -4244,7 +4244,69 @@
         "x": 500,
         "y": 260,
         "wires": [
-            []
+            [
+                "c9e28b7bbba81bb5",
+                "bfaf2555ae1ef7f9"
+            ]
         ]
+    },
+    {
+        "id": "5f373ecf2f23899c",
+        "type": "inject",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "180",
+        "payloadType": "num",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "033ea7e829fda05b"
+            ]
+        ]
+    },
+    {
+        "id": "c9e28b7bbba81bb5",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 740,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bfaf2555ae1ef7f9",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 920,
+        "y": 280,
+        "wires": []
     }
 ]
