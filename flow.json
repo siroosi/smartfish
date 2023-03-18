@@ -4105,6 +4105,21 @@
         ]
     },
     {
+        "id": "632072a5d318d5e9",
+        "type": "tesseract",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "language": "ger",
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "80aa77d47da61c50",
+                "4eea6747e0c9b091"
+            ]
+        ]
+    },
+    {
         "id": "ea58c454eb4083c2",
         "type": "inject",
         "z": "5e246f6c64b79f72",
@@ -4121,145 +4136,12 @@
         "topic": "",
         "payload": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp1.png",
         "payloadType": "str",
-        "x": 110,
+        "x": 130,
         "y": 780,
         "wires": [
             [
-                "ec9da63dd16bb77d",
-                "bf1fea03185fae45"
+                "632072a5d318d5e9"
             ]
         ]
-    },
-    {
-        "id": "632072a5d318d5e9",
-        "type": "tesseract",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "language": "ger",
-        "x": 360,
-        "y": 780,
-        "wires": [
-            [
-                "80aa77d47da61c50",
-                "4eea6747e0c9b091"
-            ]
-        ]
-    },
-    {
-        "id": "ec9da63dd16bb77d",
-        "type": "jimp-image",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "data": "payload",
-        "dataType": "msg",
-        "ret": "img",
-        "parameter1": "0",
-        "parameter1Type": "num",
-        "parameter2": "500",
-        "parameter2Type": "num",
-        "parameter3": "230",
-        "parameter3Type": "num",
-        "parameter4": "20",
-        "parameter4Type": "num",
-        "parameter5": "",
-        "parameter5Type": "msg",
-        "parameter6": "",
-        "parameter6Type": "msg",
-        "parameter7": "",
-        "parameter7Type": "msg",
-        "parameter8": "",
-        "parameter8Type": "msg",
-        "sendProperty": "payload",
-        "sendPropertyType": "msg",
-        "parameterCount": 4,
-        "jimpFunction": "crop",
-        "selectedJimpFunction": {
-            "name": "crop",
-            "fn": "crop",
-            "description": "crop to the given region",
-            "parameters": [
-                {
-                    "name": "x",
-                    "type": "num",
-                    "required": true,
-                    "hint": "the x coordinate to crop form"
-                },
-                {
-                    "name": "y",
-                    "type": "num",
-                    "required": true,
-                    "hint": "the y coordinate to crop form"
-                },
-                {
-                    "name": "w",
-                    "type": "num",
-                    "required": true,
-                    "hint": "the width of the crop region"
-                },
-                {
-                    "name": "h",
-                    "type": "num",
-                    "required": true,
-                    "hint": "the height of the crop region"
-                }
-            ]
-        },
-        "x": 290,
-        "y": 880,
-        "wires": [
-            [
-                "4ace54ca6de32261",
-                "73615929463411bc"
-            ]
-        ]
-    },
-    {
-        "id": "4ace54ca6de32261",
-        "type": "file",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "filename": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp1crop.png",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 840,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "73615929463411bc",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 440,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "bf1fea03185fae45",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 240,
-        "y": 1000,
-        "wires": []
     }
 ]
