@@ -4199,7 +4199,7 @@
         "height": 3,
         "name": "temp",
         "icon": "",
-        "label": "temp",
+        "label": "",
         "unit": "°C",
         "layout": "radial",
         "decimals": "2",
