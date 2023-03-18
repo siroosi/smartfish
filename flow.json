@@ -4142,7 +4142,7 @@
         "order": 32,
         "width": 0,
         "height": 0,
-        "gtype": "donut",
+        "gtype": "gage",
         "title": "temp",
         "label": "°C",
         "format": "{{payload.tempc}}",
