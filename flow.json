@@ -4155,10 +4155,72 @@
         ],
         "seg1": "10",
         "seg2": "23",
-        "diff": true,
+        "diff": false,
         "className": "",
         "x": 610,
         "y": 940,
+        "wires": []
+    },
+    {
+        "id": "134bebce82161143",
+        "type": "ui_artlessgauge",
+        "z": "5e246f6c64b79f72",
+        "group": "2549cedd67b83eef",
+        "order": 29,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "icon": "",
+        "label": "temp",
+        "unit": "",
+        "layout": "radial",
+        "decimals": 0,
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "",
+        "colorFromTheme": true,
+        "property": "payload.tempc",
+        "secondary": "secondary",
+        "inline": false,
+        "animate": true,
+        "sectors": [
+            {
+                "val": -30,
+                "col": "#ffffff",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 5,
+                "col": "#0000ff",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 22,
+                "col": "#00ff00",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 25,
+                "col": "#ffff00",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 50,
+                "col": "#ffff00",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": 3,
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 640,
+        "y": 980,
         "wires": []
     }
 ]
