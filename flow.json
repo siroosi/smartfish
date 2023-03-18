@@ -3279,7 +3279,7 @@
                 "t": "set",
                 "p": "src",
                 "pt": "msg",
-                "to": "/home/fish/radfilm_bbb_akt.gif",
+                "to": " /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter/radfilm_bbb_akt.gif",
                 "tot": "str"
             }
         ],
