@@ -4273,7 +4273,7 @@
         "width": 4,
         "height": 4,
         "gtype": "compass",
-        "title": "{{msg.topic}}",
+        "title": "",
         "label": "{{msg.payload.windspeed}} km/h",
         "format": "{{msg.topic}}",
         "min": 0,
