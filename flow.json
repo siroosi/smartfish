@@ -4159,11 +4159,17 @@
                 "val": 25,
                 "col": "#ffff00",
                 "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 45,
+                "col": "#ff0000",
+                "t": "sec",
                 "dot": 2
             },
             {
                 "val": 50,
-                "col": "#ffff00",
+                "col": "#ff0000",
                 "t": "max",
                 "dot": 2
             }
