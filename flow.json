@@ -3314,7 +3314,7 @@
         "onstart": false,
         "scope": "local",
         "tooltip": "",
-        "x": 930,
+        "x": 1030,
         "y": 180,
         "wires": [
             []
@@ -3329,7 +3329,7 @@
         "order": 37,
         "width": 2,
         "height": 1,
-        "x": 930,
+        "x": 1030,
         "y": 220,
         "wires": []
     },
@@ -3352,7 +3352,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 610,
+        "x": 650,
         "y": 180,
         "wires": [
             [
@@ -3466,7 +3466,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 750,
+        "x": 830,
         "y": 220,
         "wires": [
             [
@@ -4180,7 +4180,7 @@
         "omitMessageOnStart": true,
         "repeat": "0",
         "topic": "",
-        "x": 630,
+        "x": 670,
         "y": 140,
         "wires": [
             [
@@ -4259,7 +4259,7 @@
         "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 910,
+        "x": 1010,
         "y": 140,
         "wires": []
     },
@@ -4275,7 +4275,7 @@
         "gtype": "compass",
         "title": "{{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
-        "format": "{{payload.winddirection}}",
+        "format": "msg.payload.winddirection{{msg.top}}",
         "min": 0,
         "max": "359",
         "colors": [
@@ -4287,7 +4287,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1080,
+        "x": 1020,
         "y": 100,
         "wires": []
     },
@@ -4302,7 +4302,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
+        "x": 840,
         "y": 100,
         "wires": [
             [
