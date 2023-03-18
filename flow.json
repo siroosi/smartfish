@@ -3244,7 +3244,7 @@
         "onstart": false,
         "scope": "local",
         "tooltip": "",
-        "x": 1030,
+        "x": 950,
         "y": 180,
         "wires": [
             []
@@ -3259,7 +3259,7 @@
         "order": 30,
         "width": 2,
         "height": 1,
-        "x": 1030,
+        "x": 950,
         "y": 220,
         "wires": []
     },
@@ -3282,7 +3282,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
+        "x": 610,
         "y": 180,
         "wires": [
             [
@@ -3308,8 +3308,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 470,
-        "y": 140,
+        "x": 450,
+        "y": 100,
         "wires": [
             [
                 "8e337d9b3201b995",
@@ -3344,7 +3344,7 @@
         "animate": false,
         "className": "",
         "x": 290,
-        "y": 140,
+        "y": 100,
         "wires": [
             [
                 "d60be81f1bd63444"
@@ -3396,7 +3396,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
+        "x": 770,
         "y": 220,
         "wires": [
             [
@@ -3811,7 +3811,7 @@
         "name": "display radar",
         "info": "",
         "x": 110,
-        "y": 120,
+        "y": 40,
         "wires": []
     },
     {
@@ -3845,7 +3845,7 @@
         "links": [
             "9265e6263cbe685e"
         ],
-        "x": 505,
+        "x": 485,
         "y": 220,
         "wires": [
             [
@@ -4110,8 +4110,8 @@
         "omitMessageOnStart": true,
         "repeat": "0",
         "topic": "",
-        "x": 670,
-        "y": 140,
+        "x": 610,
+        "y": 100,
         "wires": [
             [
                 "134bebce82161143",
@@ -4189,8 +4189,8 @@
         "lineWidth": "3",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 1010,
-        "y": 140,
+        "x": 930,
+        "y": 100,
         "wires": []
     },
     {
@@ -4217,8 +4217,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1020,
-        "y": 100,
+        "x": 940,
+        "y": 140,
         "wires": []
     },
     {
@@ -4232,8 +4232,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 100,
+        "x": 780,
+        "y": 140,
         "wires": [
             [
                 "c5d07b13df38f4b5"
