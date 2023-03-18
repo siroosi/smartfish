@@ -147,7 +147,7 @@
         "type": "ui_tab",
         "name": "blank",
         "icon": "dashboard",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -177,7 +177,7 @@
         "name": "Link 4",
         "icon": "open_in_browser",
         "target": "newtab",
-        "order": 4
+        "order": 5
     },
     {
         "id": "48e0ed102c743709",
@@ -568,6 +568,24 @@
         "order": 25,
         "width": 7,
         "height": 1
+    },
+    {
+        "id": "617551717e15cb3d",
+        "type": "ui_tab",
+        "name": "radar update",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "19542e2ab6026737",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "617551717e15cb3d",
+        "order": 1,
+        "disp": true,
+        "width": 6
     },
     {
         "id": "f2ce91973a37e240",
@@ -3593,7 +3611,8 @@
             [
                 "65402a2498ef9275",
                 "2555f71f5122b4db",
-                "11d19dadf193c9cd"
+                "11d19dadf193c9cd",
+                "d23bbf3edc64e785"
             ]
         ]
     },
@@ -3689,7 +3708,7 @@
         "id": "11d19dadf193c9cd",
         "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
-        "group": "2549cedd67b83eef",
+        "group": "19542e2ab6026737",
         "order": 28,
         "width": 0,
         "height": 0,
@@ -3876,6 +3895,101 @@
         "wires": [
             [
                 "8e337d9b3201b995"
+            ]
+        ]
+    },
+    {
+        "id": "9dbc96afc04e93d3",
+        "type": "ffmpeg",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "outputs": 1,
+        "cmdPath": "ffmpeg",
+        "cmdArgs": "[\"-version\"]",
+        "cmdOutputs": 0,
+        "killSignal": "SIGTERM",
+        "x": 470,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a7af5330867cbfad",
+        "type": "ui_ui_control",
+        "z": "5e246f6c64b79f72",
+        "name": "change tab",
+        "events": "all",
+        "x": 630,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d23bbf3edc64e785",
+        "type": "change",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "radar update",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "a7af5330867cbfad"
+            ]
+        ]
+    },
+    {
+        "id": "60a997f225afe2bb",
+        "type": "ui_ui_control",
+        "z": "5e246f6c64b79f72",
+        "name": "change tab",
+        "events": "all",
+        "x": 630,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d6e7b1295d02a96",
+        "type": "ui_button",
+        "z": "5e246f6c64b79f72",
+        "name": "...back",
+        "group": "19542e2ab6026737",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "syscontrol",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "60a997f225afe2bb"
             ]
         ]
     }
