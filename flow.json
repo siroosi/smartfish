@@ -4257,7 +4257,9 @@
         "name": "",
         "props": [
             {
-                "p": "payload"
+                "p": "payload.winddirection",
+                "v": "180",
+                "vt": "num"
             }
         ],
         "repeat": "",
@@ -4265,8 +4267,6 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "180",
-        "payloadType": "num",
         "x": 150,
         "y": 240,
         "wires": [
