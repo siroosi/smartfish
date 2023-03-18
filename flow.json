@@ -4287,12 +4287,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "payload",
+        "complete": "payload.winddireciton",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 920,
-        "y": 300,
+        "y": 320,
         "wires": []
     },
     {
