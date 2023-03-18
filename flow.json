@@ -3376,9 +3376,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "100 ",
-        "payload": "",
-        "payloadType": "date",
-        "x": 560,
+        "payload": "100 ",
+        "payloadType": "str",
+        "x": 540,
         "y": 480,
         "wires": [
             [
