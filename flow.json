@@ -3277,9 +3277,9 @@
         "rules": [
             {
                 "t": "set",
-                "p": "payload",
+                "p": "src",
                 "pt": "msg",
-                "to": "src: /home/fish/radfilm_bbb_akt.gif",
+                "to": "/home/fish/radfilm_bbb_akt.gif",
                 "tot": "str"
             }
         ],
@@ -3288,7 +3288,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 810,
+        "x": 800,
         "y": 420,
         "wires": [
             [
@@ -3810,7 +3810,7 @@
         "name": "",
         "icon": "",
         "label": "download",
-        "unit": "",
+        "unit": "%",
         "layout": "linear",
         "decimals": 0,
         "differential": false,
@@ -3820,7 +3820,7 @@
         "colorFromTheme": true,
         "property": "payload",
         "secondary": "secondary",
-        "inline": false,
+        "inline": true,
         "animate": true,
         "sectors": [
             {
