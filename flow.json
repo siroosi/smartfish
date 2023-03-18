@@ -3206,7 +3206,7 @@
         "id": "2555f71f5122b4db",
         "type": "exec",
         "z": "5e246f6c64b79f72",
-        "command": "curl -# -O --output-dir /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif",
+        "command": "curl -# -O --output-dir /home/fish/.node-red/projects/fishcontrol/ui-media/lib/wetter/ https://www.dwd.de/DWD/wetter/radar/radfilm_bbb_akt.gif",
         "addpay": "",
         "append": "",
         "useSpawn": "true",
