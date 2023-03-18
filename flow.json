@@ -3222,7 +3222,8 @@
             ],
             [
                 "e5218ba6dc918682",
-                "3763c2906a64c157"
+                "3763c2906a64c157",
+                "9dc74d152151d045"
             ],
             []
         ]
@@ -3714,9 +3715,11 @@
         "name": "",
         "rules": [
             {
-                "t": "set",
+                "t": "change",
                 "p": "payload",
                 "pt": "msg",
+                "from": "",
+                "fromt": "str",
                 "to": "",
                 "tot": "str"
             }
@@ -3726,8 +3729,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
-        "y": 540,
+        "x": 720,
+        "y": 600,
         "wires": [
             []
         ]
@@ -3762,6 +3765,82 @@
         "statusType": "auto",
         "x": 840,
         "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9dc74d152151d045",
+        "type": "string",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "methods": [
+            {
+                "name": "between",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": " "
+                    },
+                    {
+                        "type": "str",
+                        "value": "%"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 770,
+        "y": 540,
+        "wires": [
+            [
+                "11d19dadf193c9cd"
+            ]
+        ]
+    },
+    {
+        "id": "11d19dadf193c9cd",
+        "type": "ui_artlessgauge",
+        "z": "5e246f6c64b79f72",
+        "group": "2549cedd67b83eef",
+        "order": 28,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "icon": "",
+        "label": "download",
+        "unit": "",
+        "layout": "linear",
+        "decimals": 0,
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": false,
+        "animate": true,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#ff9900",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 100,
+                "col": "#ff9900",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": 3,
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 1080,
+        "y": 540,
         "wires": []
     }
 ]
