@@ -4067,5 +4067,69 @@
                 "632072a5d318d5e9"
             ]
         ]
+    },
+    {
+        "id": "2a5e9387ee8d2568",
+        "type": "dwdweather",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "mosmixStation": "FS518",
+        "lookAheadHours": "0",
+        "additionalFields": "",
+        "omitMessageOnStart": true,
+        "repeat": "0",
+        "topic": "",
+        "x": 370,
+        "y": 880,
+        "wires": [
+            [
+                "2af161e0c5081970"
+            ]
+        ]
+    },
+    {
+        "id": "89d36f75fb90591d",
+        "type": "inject",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 880,
+        "wires": [
+            [
+                "2a5e9387ee8d2568"
+            ]
+        ]
+    },
+    {
+        "id": "2af161e0c5081970",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 880,
+        "wires": []
     }
 ]
