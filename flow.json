@@ -3902,8 +3902,25 @@
         "y": 540,
         "wires": [
             [
-                "11d19dadf193c9cd"
+                "11d19dadf193c9cd",
+                "907f11a56ee4e97c"
             ]
         ]
+    },
+    {
+        "id": "907f11a56ee4e97c",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 600,
+        "wires": []
     }
 ]
