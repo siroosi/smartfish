@@ -4121,14 +4121,14 @@
         "order": 14,
         "width": 6,
         "height": 5,
-        "name": "",
+        "name": "temp",
         "icon": "",
         "label": "temp",
-        "unit": "",
+        "unit": "°C",
         "layout": "radial",
         "decimals": 0,
         "differential": false,
-        "minmax": false,
+        "minmax": true,
         "colorTrack": "#555555",
         "style": "",
         "colorFromTheme": true,
@@ -4168,10 +4168,10 @@
                 "dot": 2
             }
         ],
-        "lineWidth": 3,
+        "lineWidth": "15",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 640,
+        "x": 610,
         "y": 920,
         "wires": []
     }
