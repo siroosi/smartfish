@@ -3797,7 +3797,7 @@
         "y": 540,
         "wires": [
             [
-                "11d19dadf193c9cd"
+                "3977c1b93caabc50"
             ]
         ]
     },
@@ -3841,7 +3841,7 @@
         "lineWidth": 3,
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 1080,
+        "x": 1140,
         "y": 540,
         "wires": []
     },
@@ -3876,5 +3876,34 @@
         "x": 1300,
         "y": 500,
         "wires": []
+    },
+    {
+        "id": "3977c1b93caabc50",
+        "type": "change",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "",
+                "fromt": "str",
+                "to": "",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 540,
+        "wires": [
+            [
+                "11d19dadf193c9cd"
+            ]
+        ]
     }
 ]
