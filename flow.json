@@ -4241,12 +4241,30 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
-        "y": 100,
+        "x": 880,
+        "y": 80,
         "wires": [
             [
-                "c5d07b13df38f4b5"
+                "c5d07b13df38f4b5",
+                "5c05d39c60fc799b"
             ]
         ]
+    },
+    {
+        "id": "5c05d39c60fc799b",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.windspeed",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 140,
+        "wires": []
     }
 ]
