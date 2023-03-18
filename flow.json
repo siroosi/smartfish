@@ -3461,7 +3461,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 1050,
+        "x": 1230,
         "y": 180,
         "wires": []
     },
@@ -3485,7 +3485,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3537,11 +3537,10 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 890,
-        "y": 220,
+        "x": 910,
+        "y": 240,
         "wires": [
             [
-                "3cde9b74e2cf03a6",
                 "206239dd1ce5331f"
             ]
         ]
@@ -3551,9 +3550,9 @@
         "type": "trigger",
         "z": "5e246f6c64b79f72",
         "name": "0.5s",
-        "op1": "",
+        "op1": "false",
         "op2": "grey",
-        "op1type": "nul",
+        "op1type": "bool",
         "op2type": "str",
         "duration": ".5",
         "extend": false,
@@ -3564,7 +3563,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1050,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "3cde9b74e2cf03a6"
@@ -3623,7 +3622,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 460,
-        "y": 240,
+        "y": 220,
         "wires": [
             [
                 "0d4d1dd0280a2edd"
