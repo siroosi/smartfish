@@ -4126,7 +4126,7 @@
         "label": "temp",
         "unit": "°C",
         "layout": "radial",
-        "decimals": "",
+        "decimals": "2",
         "differential": false,
         "minmax": true,
         "colorTrack": "#555555",
