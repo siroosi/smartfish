@@ -4259,7 +4259,7 @@
             {
                 "p": "payload.winddirection",
                 "v": "180",
-                "vt": "str"
+                "vt": "num"
             }
         ],
         "repeat": "",
