@@ -4073,7 +4073,7 @@
         "type": "dwdweather",
         "z": "5e246f6c64b79f72",
         "name": "",
-        "mosmixStation": "FS518",
+        "mosmixStation": "F518",
         "lookAheadHours": "0",
         "additionalFields": "",
         "omitMessageOnStart": true,
