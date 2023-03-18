@@ -4127,20 +4127,16 @@
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp01.png",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
+        "topic": "",
+        "payload": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp1.png",
+        "payloadType": "str",
+        "x": 110,
         "y": 780,
         "wires": [
             [
