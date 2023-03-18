@@ -4275,7 +4275,7 @@
         "gtype": "compass",
         "title": "{{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
-        "format": "msg.payload.winddirection{{msg.top}}",
+        "format": "{{msg.topic}}",
         "min": 0,
         "max": "359",
         "colors": [
