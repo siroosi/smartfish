@@ -3223,7 +3223,7 @@
             [
                 "e5218ba6dc918682",
                 "3763c2906a64c157",
-                "9dc74d152151d045"
+                "4bc848bcde9c106f"
             ],
             []
         ]
@@ -3793,12 +3793,11 @@
         "propout": "payload",
         "object": "msg",
         "objectout": "msg",
-        "x": 770,
-        "y": 540,
+        "x": 910,
+        "y": 520,
         "wires": [
             [
-                "3977c1b93caabc50",
-                "5e99e3f061b8c2f4"
+                "11d19dadf193c9cd"
             ]
         ]
     },
@@ -3842,8 +3841,8 @@
         "lineWidth": 3,
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 1140,
-        "y": 540,
+        "x": 1080,
+        "y": 520,
         "wires": []
     },
     {
@@ -3879,65 +3878,28 @@
         "wires": []
     },
     {
-        "id": "3977c1b93caabc50",
-        "type": "change",
+        "id": "4bc848bcde9c106f",
+        "type": "switch",
         "z": "5e246f6c64b79f72",
         "name": "",
+        "property": "payload",
+        "propertyType": "msg",
         "rules": [
             {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "",
-                "fromt": "str",
-                "to": "",
-                "tot": "num"
+                "t": "cont",
+                "v": "%",
+                "vt": "str"
             }
         ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 940,
-        "y": 540,
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 520,
         "wires": [
             [
-                "11d19dadf193c9cd",
-                "907f11a56ee4e97c"
+                "9dc74d152151d045"
             ]
         ]
-    },
-    {
-        "id": "907f11a56ee4e97c",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1120,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "5e99e3f061b8c2f4",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 640,
-        "wires": []
     }
 ]
