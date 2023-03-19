@@ -3515,7 +3515,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "background",
+                "p": "color",
                 "pt": "msg",
                 "to": " #5f6a6a ",
                 "tot": "str"
