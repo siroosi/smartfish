@@ -3488,7 +3488,7 @@
         "bgcolor": "{{msg.background}}",
         "className": "",
         "icon": "",
-        "payload": "home/fish/wetter.log.csv",
+        "payload": "/home/fish/wetter.log.csv",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
