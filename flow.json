@@ -3517,8 +3517,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": " {\"background-color\": \"#5f6a6a\"}",
-                "tot": "jsonata"
+                "to": "#5f6a6a",
+                "tot": "str"
             }
         ],
         "action": "",
