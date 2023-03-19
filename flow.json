@@ -3482,17 +3482,17 @@
         "width": 4,
         "height": 3,
         "passthru": false,
-        "label": "<span style=\"font-size:8px;\">wetter<br>log</span>",
+        "label": "wetter<br>log",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "home/fish/wetter.log.csv",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 850,
+        "x": 740,
         "y": 980,
         "wires": [
             [
@@ -3507,8 +3507,8 @@
         "name": "log",
         "filename": "/home/fish/wetter.log.csv",
         "encoding": "none",
-        "x": 890,
-        "y": 1020,
+        "x": 950,
+        "y": 1060,
         "wires": []
     },
     {
