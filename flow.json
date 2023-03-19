@@ -3396,7 +3396,7 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
-        "className": "",
+        "className": "<p style=“line-height: 50%“>",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -3417,7 +3417,7 @@
         "name": "log",
         "filename": "/home/fish/wetter.log.csv",
         "encoding": "none",
-        "x": 870,
+        "x": 890,
         "y": 1120,
         "wires": []
     },
