@@ -450,7 +450,7 @@
         "height": 1
     },
     {
-        "id": "80cfa404901109c8",
+        "id": "e0715e1a5da8b034",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -460,37 +460,27 @@
         "height": 1
     },
     {
-        "id": "c00a487316d053c5",
+        "id": "c679c5bf6a3fd720",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
         "group": "2549cedd67b83eef",
         "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "7bd23e06e9645213",
-        "type": "ui_spacer",
-        "z": "1f71719cabb831b2",
-        "name": "spacer",
-        "group": "2549cedd67b83eef",
-        "order": 6,
         "width": 1,
         "height": 1
     },
     {
-        "id": "d95e92c637da17ad",
+        "id": "470dc64413d55aaf",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
         "group": "2549cedd67b83eef",
-        "order": 8,
+        "order": 7,
         "width": 1,
         "height": 1
     },
     {
-        "id": "7cc9bf9f0cc3b49e",
+        "id": "364e2fe9bef3311a",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -500,7 +490,7 @@
         "height": 1
     },
     {
-        "id": "5765c90d12475bea",
+        "id": "eeca6cd8e80c50d5",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -510,7 +500,7 @@
         "height": 1
     },
     {
-        "id": "da7d7027647f764d",
+        "id": "8a87c26bdf087544",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -520,7 +510,7 @@
         "height": 1
     },
     {
-        "id": "9ce07eccd83cb5bb",
+        "id": "087f89399cc1bce8",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -530,7 +520,7 @@
         "height": 1
     },
     {
-        "id": "3e329617bb76edd5",
+        "id": "0b8cafb4d2200269",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -3920,7 +3910,7 @@
         "group": "244ec58c68ccd350",
         "name": "weathermap",
         "width": 18,
-        "height": 12,
+        "height": 13,
         "order": 2,
         "category": "wetter",
         "file": "radfilm_bbb_akt.gif",
@@ -4792,7 +4782,7 @@
         "group": "2549cedd67b83eef",
         "order": 3,
         "width": 6,
-        "height": 5,
+        "height": 6,
         "name": "temp",
         "icon": "",
         "label": "Temperatur",
@@ -4913,7 +4903,7 @@
         "group": "2549cedd67b83eef",
         "order": 4,
         "width": 6,
-        "height": 5,
+        "height": 6,
         "name": "luftfeuchte",
         "icon": "",
         "label": "rel.Luftfeuchte",
@@ -5044,7 +5034,7 @@
         "group": "4f5df95921818e5a",
         "order": 6,
         "width": 6,
-        "height": 6,
+        "height": 7,
         "label": "",
         "chartType": "line",
         "legend": "false",
@@ -5252,7 +5242,7 @@
         "z": "5e246f6c64b79f72",
         "name": "back",
         "group": "2549cedd67b83eef",
-        "order": 7,
+        "order": 6,
         "width": 4,
         "height": 1,
         "passthru": false,
