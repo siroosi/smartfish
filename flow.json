@@ -1843,7 +1843,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "wetter</>info",
+        "label": "wetter<br>info",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
@@ -1853,7 +1853,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 730,
+        "x": 740,
         "y": 1080,
         "wires": [
             [
