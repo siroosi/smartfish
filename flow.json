@@ -358,7 +358,7 @@
         "width": 6
     },
     {
-        "id": "f3f5bcd2f526e5af",
+        "id": "2d1d36c51080a4af",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -368,7 +368,7 @@
         "height": 1
     },
     {
-        "id": "bfd9dded89e81570",
+        "id": "92f31893de23c4f4",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -378,7 +378,7 @@
         "height": 1
     },
     {
-        "id": "fd839270ee91c59a",
+        "id": "df00474d452212a9",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -388,7 +388,7 @@
         "height": 1
     },
     {
-        "id": "3ab160fedf6655d2",
+        "id": "ae25071ff5e6cffc",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -398,7 +398,7 @@
         "height": 1
     },
     {
-        "id": "f270b07841afc629",
+        "id": "33d753a292f2d286",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -408,7 +408,7 @@
         "height": 1
     },
     {
-        "id": "6b76d388d5289e3d",
+        "id": "c3b9ec1a592ee4f8",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -418,7 +418,7 @@
         "height": 1
     },
     {
-        "id": "a4b33161bfdb6a00",
+        "id": "d0aaca2e769d2f5d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -428,7 +428,7 @@
         "height": 1
     },
     {
-        "id": "2c57dfa4684c019b",
+        "id": "1547571da70dfcec",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -438,7 +438,7 @@
         "height": 1
     },
     {
-        "id": "8560c20f0de2cfe3",
+        "id": "5a43c70ad7f779fa",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -448,7 +448,7 @@
         "height": 1
     },
     {
-        "id": "334eac6c5090d3e8",
+        "id": "175d2ab78cc8298b",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -458,7 +458,7 @@
         "height": 1
     },
     {
-        "id": "dd717953f44b4adb",
+        "id": "8a1a30f0bd42d7c5",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -468,7 +468,7 @@
         "height": 1
     },
     {
-        "id": "3efedc6241e29d72",
+        "id": "99422ef4f4b1f19b",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -478,7 +478,7 @@
         "height": 1
     },
     {
-        "id": "392b9631f6096014",
+        "id": "611b26d8ecd3c5a7",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -488,7 +488,7 @@
         "height": 1
     },
     {
-        "id": "fcca51343b9440e1",
+        "id": "e23c3d5f028c7d1e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -498,7 +498,7 @@
         "height": 1
     },
     {
-        "id": "95ba155ee7471045",
+        "id": "40f5f3db3dd6c3f2",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -508,7 +508,7 @@
         "height": 1
     },
     {
-        "id": "76a0b04f19201f4f",
+        "id": "d0f688d170aa6f2d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -518,7 +518,7 @@
         "height": 1
     },
     {
-        "id": "e973d6c31e6d57d2",
+        "id": "1132e5aba47fb466",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -528,7 +528,7 @@
         "height": 1
     },
     {
-        "id": "73ccc5ea50caad78",
+        "id": "595b1e5f51a97a85",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -538,7 +538,7 @@
         "height": 1
     },
     {
-        "id": "0fbb8c2941ef054d",
+        "id": "ae5041949b8e7c19",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -548,7 +548,7 @@
         "height": 1
     },
     {
-        "id": "2c7e1be6fb193c91",
+        "id": "026c3f5777587142",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -558,7 +558,7 @@
         "height": 1
     },
     {
-        "id": "cc9a32f82af8abb5",
+        "id": "ccd0ccd9dce99db4",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -568,7 +568,7 @@
         "height": 1
     },
     {
-        "id": "8420a7858f27c6b7",
+        "id": "25e99131b3fcd9c3",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -578,7 +578,7 @@
         "height": 1
     },
     {
-        "id": "391acd64a09a0609",
+        "id": "482a86e4afdd720a",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -588,7 +588,7 @@
         "height": 1
     },
     {
-        "id": "41c9f3db9012a9e3",
+        "id": "fddb4f232f0c2f52",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -598,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "704f2d4ab7435a29",
+        "id": "a02fff6af8429886",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -4106,7 +4106,7 @@
             [
                 "134bebce82161143",
                 "033ea7e829fda05b",
-                "41c25fa751fbc5ad"
+                "25e4ac101ee3fe6f"
             ]
         ]
     },
@@ -4232,30 +4232,76 @@
         ]
     },
     {
-        "id": "41c25fa751fbc5ad",
-        "type": "ui_gauge",
+        "id": "25e4ac101ee3fe6f",
+        "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
-        "name": "",
         "group": "2549cedd67b83eef",
         "order": 13,
         "width": 5,
         "height": 4,
-        "gtype": "gage",
-        "title": "Rel.Luftf.",
-        "label": "%",
-        "format": "{{payload.humidity}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#ffff00",
-            "#00ff00",
-            "#0000ff"
+        "name": "luftfeuchte",
+        "icon": "",
+        "label": "rel.Luftfeuchte",
+        "unit": " %",
+        "layout": "radial",
+        "decimals": "2",
+        "differential": false,
+        "minmax": true,
+        "colorTrack": "#555555",
+        "style": "",
+        "colorFromTheme": true,
+        "property": "payload.humidity",
+        "secondary": "secondary",
+        "inline": false,
+        "animate": true,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#ff8000",
+                "t": "min",
+                "dot": 2
+            },
+            {
+                "val": 50,
+                "col": "#ffa851",
+                "t": "sec",
+                "dot": 2
+            },
+            {
+                "val": 55,
+                "col": "#ffff00",
+                "t": "sec",
+                "dot": 2
+            },
+            {
+                "val": 60,
+                "col": "#00ff00",
+                "t": "sec",
+                "dot": 2
+            },
+            {
+                "val": 75,
+                "col": "#ffff00",
+                "t": "sec",
+                "dot": 2
+            },
+            {
+                "val": 80,
+                "col": "#0020ff",
+                "t": "sec",
+                "dot": 2
+            },
+            {
+                "val": 100,
+                "col": "#0020ff",
+                "t": "max",
+                "dot": 2
+            }
         ],
-        "seg1": "65",
-        "seg2": "80",
-        "diff": false,
-        "className": "",
-        "x": 940,
+        "lineWidth": "13",
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 950,
         "y": 60,
         "wires": []
     }
