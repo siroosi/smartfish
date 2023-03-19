@@ -1796,34 +1796,6 @@
         ]
     },
     {
-        "id": "bf1cf65d468bd5c5",
-        "type": "ui_button",
-        "z": "1f71719cabb831b2",
-        "name": "back",
-        "group": "2549cedd67b83eef",
-        "order": 6,
-        "width": 4,
-        "height": 1,
-        "passthru": false,
-        "label": "back",
-        "tooltip": "back to main sys page",
-        "color": "",
-        "bgcolor": "{{msg.background}}",
-        "className": "",
-        "icon": "",
-        "payload": "syscontrol",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 390,
-        "y": 1120,
-        "wires": [
-            [
-                "e88e36649f0908c9"
-            ]
-        ]
-    },
-    {
         "id": "403cfc20b368c04e",
         "type": "ui_ui_control",
         "z": "1f71719cabb831b2",
@@ -2555,22 +2527,6 @@
         ]
     },
     {
-        "id": "5ad563cc6218c24d",
-        "type": "link in",
-        "z": "1f71719cabb831b2",
-        "name": "btnBack",
-        "links": [
-            "1b987b73a33bbbfb"
-        ],
-        "x": 245,
-        "y": 1120,
-        "wires": [
-            [
-                "bf1cf65d468bd5c5"
-            ]
-        ]
-    },
-    {
         "id": "4d3eef3520fdf581",
         "type": "link in",
         "z": "1f71719cabb831b2",
@@ -2634,19 +2590,6 @@
                 "a8703941e1afc109"
             ]
         ]
-    },
-    {
-        "id": "e88e36649f0908c9",
-        "type": "link out",
-        "z": "1f71719cabb831b2",
-        "name": "btnBack",
-        "mode": "link",
-        "links": [
-            "874a5750264a233e"
-        ],
-        "x": 515,
-        "y": 1120,
-        "wires": []
     },
     {
         "id": "be46f42f70012fc0",
@@ -3540,7 +3483,6 @@
                 "695caeba2b6e07fe",
                 "b62ceec6e40e3678",
                 "69c309a604df21c8",
-                "bf1cf65d468bd5c5",
                 "fca16781a32a689a",
                 "777463c0f69701e0"
             ]
@@ -3873,7 +3815,7 @@
         "to": "",
         "reg": false,
         "x": 630,
-        "y": 520,
+        "y": 280,
         "wires": [
             [
                 "b0ede0269d8bbe42",
@@ -3961,11 +3903,12 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 130,
-        "y": 160,
+        "y": 280,
         "wires": [
             [
                 "880b9dad88d8259e",
-                "8e337d9b3201b995"
+                "8e337d9b3201b995",
+                "a68777abc9e59d76"
             ]
         ]
     },
@@ -4438,7 +4381,7 @@
             "9265e6263cbe685e"
         ],
         "x": 505,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "8e337d9b3201b995"
@@ -4684,8 +4627,7 @@
                 "77b76a31af02b750",
                 "fe9c82c82b8844c3",
                 "1e85b90333fa061f",
-                "5dc6d620f93ffcc4",
-                "6c3c2e6c62511ead"
+                "5dc6d620f93ffcc4"
             ]
         ]
     },
@@ -5117,19 +5059,94 @@
         ]
     },
     {
-        "id": "6c3c2e6c62511ead",
-        "type": "debug",
+        "id": "a68777abc9e59d76",
+        "type": "change",
         "z": "5e246f6c64b79f72",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 960,
-        "y": 160,
+        "name": "btncolor",
+        "rules": [
+            {
+                "t": "set",
+                "p": "background",
+                "pt": "msg",
+                "to": "#5f6a6a",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "oncolor",
+                "pt": "msg",
+                "to": " #2e86c1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "bf1cf65d468bd5c5"
+            ]
+        ]
+    },
+    {
+        "id": "bf1cf65d468bd5c5",
+        "type": "ui_button",
+        "z": "5e246f6c64b79f72",
+        "name": "back",
+        "group": "2549cedd67b83eef",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "back",
+        "tooltip": "back to main sys page",
+        "color": "",
+        "bgcolor": "{{msg.background}}",
+        "className": "",
+        "icon": "",
+        "payload": "syscontrol",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "e88e36649f0908c9"
+            ]
+        ]
+    },
+    {
+        "id": "5ad563cc6218c24d",
+        "type": "link in",
+        "z": "5e246f6c64b79f72",
+        "name": "btnBack",
+        "links": [
+            "1b987b73a33bbbfb"
+        ],
+        "x": 345,
+        "y": 340,
+        "wires": [
+            [
+                "bf1cf65d468bd5c5"
+            ]
+        ]
+    },
+    {
+        "id": "e88e36649f0908c9",
+        "type": "link out",
+        "z": "5e246f6c64b79f72",
+        "name": "btnBack",
+        "mode": "link",
+        "links": [
+            "874a5750264a233e"
+        ],
+        "x": 595,
+        "y": 340,
         "wires": []
     }
 ]
