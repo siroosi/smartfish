@@ -3449,7 +3449,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "wetter log \\n download",
+        "label": "\"wetter log\" \\n \"download\"",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3459,7 +3459,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 100,
+        "x": 110,
         "y": 1220,
         "wires": [
             [
