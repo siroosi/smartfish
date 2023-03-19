@@ -3971,7 +3971,7 @@
         "repeat": "0",
         "topic": "",
         "x": 630,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "134bebce82161143",
@@ -3979,7 +3979,8 @@
                 "25e4ac101ee3fe6f",
                 "77b76a31af02b750",
                 "fe9c82c82b8844c3",
-                "e4f3a7707aa5a0e0"
+                "e4f3a7707aa5a0e0",
+                "1e85b90333fa061f"
             ]
         ]
     },
@@ -4277,5 +4278,48 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "1e85b90333fa061f",
+        "type": "change",
+        "z": "5e246f6c64b79f72",
+        "name": "wetter log",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$now('[H01]:[m01]:[s01]', \"+0100\")& ',' & $now('[H01]:[m01]:[s01]', \"+0100\") & ',' & payload.tempc & ',' & payload.humidity & ',' & payload.windspeed & ',' & payload.winddirection & ',' & payload.precipitation_perc & ',' & payload.precipitationNext24h",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 440,
+        "wires": [
+            [
+                "1332e44f85166c3c"
+            ]
+        ]
+    },
+    {
+        "id": "1332e44f85166c3c",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 420,
+        "wires": []
     }
 ]
