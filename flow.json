@@ -4289,7 +4289,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "$now('[H01]:[m01]:[s01]', \"+0100\")& ',' & $now('[H01]:[m01]:[s01]', \"+0100\") & ',' & payload.tempc & ',' & payload.humidity & ',' & payload.windspeed & ',' & payload.winddirection & ',' & payload.precipitation_perc & ',' & payload.precipitationNext24h",
+                "to": "$now('[H01]:[m01]:[s01]', \"+0100\")& ',' & $now('[D01].[M01].[Y0001]', \"+0100\") & ',' & payload.tempc & ',' & payload.humidity & ',' & payload.windspeed & ',' & payload.winddirection & ',' & payload.precipitation_perc & ',' & payload.precipitationNext24h",
                 "tot": "jsonata"
             }
         ],
