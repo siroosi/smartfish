@@ -4244,7 +4244,7 @@
         "order": 20,
         "width": 12,
         "height": 4,
-        "label": "chart",
+        "label": "",
         "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
