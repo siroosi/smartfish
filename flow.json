@@ -3519,6 +3519,13 @@
                 "pt": "msg",
                 "to": " #5f6a6a ",
                 "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
             }
         ],
         "action": "",
