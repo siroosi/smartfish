@@ -4227,7 +4227,7 @@
         "gtype": "wave",
         "title": "Regen",
         "label": "wahrscheinlichkeit",
-        "format": "{{payload.precipitation_perc}} %",
+        "format": "{{payload.precipitation_perc}}\" %\"",
         "min": 0,
         "max": "100",
         "colors": [
