@@ -3517,15 +3517,15 @@
                 "t": "set",
                 "p": "payload.backgroound",
                 "pt": "msg",
-                "to": "#5f6a6a",
-                "tot": "str"
+                "to": "\"#5f6a6a\"",
+                "tot": "jsonata"
             },
             {
                 "t": "set",
                 "p": "payload.oncolor",
                 "pt": "msg",
-                "to": " #2e86c1",
-                "tot": "str"
+                "to": " \"#2e86c1\"",
+                "tot": "jsonata"
             }
         ],
         "action": "",
