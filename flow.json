@@ -358,7 +358,7 @@
         "width": 6
     },
     {
-        "id": "18308d137d0ff1f8",
+        "id": "a71a2ef81c642635",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -368,7 +368,7 @@
         "height": 1
     },
     {
-        "id": "90bc147457118961",
+        "id": "f2d662d1f2b45658",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -378,7 +378,7 @@
         "height": 1
     },
     {
-        "id": "ef523255f206466b",
+        "id": "c79ccc55e24dfe88",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -388,7 +388,7 @@
         "height": 1
     },
     {
-        "id": "965e83e019734a3a",
+        "id": "49bd298b76fd0770",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -398,7 +398,7 @@
         "height": 1
     },
     {
-        "id": "963e3d154b0b08e4",
+        "id": "a259310be89d10a2",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -408,7 +408,7 @@
         "height": 1
     },
     {
-        "id": "35fe659b21a3b8f2",
+        "id": "1e38c9e2eebbaeef",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -418,7 +418,7 @@
         "height": 1
     },
     {
-        "id": "885d7f634da65c66",
+        "id": "e30384b3f81e341d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -428,7 +428,7 @@
         "height": 1
     },
     {
-        "id": "a2d46ed5782f7e32",
+        "id": "06f52acced2c1ee1",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -438,53 +438,63 @@
         "height": 1
     },
     {
-        "id": "0250954e75ba35ed",
+        "id": "46c1bcfc4c2cdc89",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "2549cedd67b83eef",
-        "order": 13,
-        "width": 2,
+        "order": 12,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "df9843b7066c89d5",
+        "id": "c45f5e857452cbd7",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "2549cedd67b83eef",
         "order": 14,
-        "width": 2,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "a517900c2683e8c1",
+        "id": "d26db4a1acd0a016",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "2549cedd67b83eef",
         "order": 15,
-        "width": 2,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "4c49ec8916524a47",
+        "id": "d22f1f7346afa337",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "2549cedd67b83eef",
         "order": 16,
-        "width": 2,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "1259d21b2fc35b9f",
+        "id": "ea3db526c4b2ad43",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "2549cedd67b83eef",
-        "order": 22,
-        "width": 8,
+        "order": 20,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2cef8a287264f454",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "2549cedd67b83eef",
+        "order": 23,
+        "width": 3,
         "height": 1
     },
     {
@@ -1849,7 +1859,7 @@
         "z": "1f71719cabb831b2",
         "name": "back",
         "group": "2549cedd67b83eef",
-        "order": 20,
+        "order": 21,
         "width": 6,
         "height": 1,
         "passthru": false,
@@ -3126,7 +3136,7 @@
         "z": "5e246f6c64b79f72",
         "name": "",
         "group": "2549cedd67b83eef",
-        "order": 21,
+        "order": 22,
         "width": 2,
         "height": 1,
         "x": 950,
@@ -4118,7 +4128,7 @@
         "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
         "group": "2549cedd67b83eef",
-        "order": 12,
+        "order": 18,
         "width": 5,
         "height": 4,
         "name": "luftfeuchte",
@@ -4193,8 +4203,8 @@
         "z": "5e246f6c64b79f72",
         "name": "",
         "group": "2549cedd67b83eef",
-        "order": 18,
-        "width": 4,
+        "order": 17,
+        "width": 3,
         "height": 3,
         "gtype": "wave",
         "title": "Regen",
@@ -4221,8 +4231,8 @@
         "z": "5e246f6c64b79f72",
         "name": "",
         "group": "2549cedd67b83eef",
-        "order": 17,
-        "width": 4,
+        "order": 13,
+        "width": 3,
         "height": 3,
         "gtype": "wave",
         "title": "Regen",
