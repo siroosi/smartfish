@@ -3504,7 +3504,7 @@
         "extend": false,
         "overrideDelay": false,
         "units": "min",
-        "reset": "",
+        "reset": "false",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
