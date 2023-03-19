@@ -3392,7 +3392,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "<span style=\"font-size:Schriftgröße\">wetter<br>log</span>",
+        "label": "<span style=\"font-size:10px\">wetter<br>log</span>",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
@@ -3402,7 +3402,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 880,
+        "x": 850,
         "y": 1120,
         "wires": [
             [
