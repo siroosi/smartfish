@@ -4581,7 +4581,7 @@
         "width": 5,
         "height": 6,
         "label": "",
-        "chartType": "line",
+        "chartType": "polar-area",
         "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
