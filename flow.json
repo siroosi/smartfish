@@ -4234,7 +4234,7 @@
         "order": 13,
         "width": 3,
         "height": 3,
-        "gtype": "wave",
+        "gtype": "donut",
         "title": "Regen",
         "label": "% chance",
         "format": "{{payload.precipitation_perc}}",
