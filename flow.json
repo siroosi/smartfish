@@ -30,7 +30,7 @@
             "darkTheme": {
                 "default": "#097479",
                 "baseColor": "#d56a00",
-                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "baseFont": "Courier,monospace",
                 "edited": true,
                 "reset": false
             },
@@ -83,7 +83,7 @@
                     "edited": false
                 },
                 "base-font": {
-                    "value": "Arial,Arial,Helvetica,sans-serif"
+                    "value": "Courier,monospace"
                 }
             },
             "angularTheme": {
@@ -3392,7 +3392,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "<span style=\"font-size:8px\">wetter<br>log</span>",
+        "label": "wetter<br>log",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
@@ -3402,7 +3402,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 850,
+        "x": 740,
         "y": 1120,
         "wires": [
             [
