@@ -344,7 +344,7 @@
         "tab": "c6d2088a8e2b5e62",
         "order": 2,
         "disp": false,
-        "width": 14,
+        "width": 15,
         "collapse": false,
         "className": ""
     },
@@ -360,7 +360,7 @@
         "className": ""
     },
     {
-        "id": "2a3637bad3d71194",
+        "id": "c8d60f12cff8e14d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -370,7 +370,7 @@
         "height": 1
     },
     {
-        "id": "74db372f3e11ddb2",
+        "id": "9f4e7122d15dc9a5",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -380,7 +380,7 @@
         "height": 1
     },
     {
-        "id": "95e1f05b96907b2e",
+        "id": "613905b49b73d9d1",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -390,27 +390,67 @@
         "height": 1
     },
     {
-        "id": "76e6eb8dd9f7c910",
+        "id": "b9ac15914b0af92e",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "244ec58c68ccd350",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "10b0c68c369009b9",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "244ec58c68ccd350",
         "order": 3,
-        "width": 6,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "15a07ae60a2fb822",
+        "id": "f2c334db5ec0eded",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "244ec58c68ccd350",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "88b8c824a5d980f5",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "244ec58c68ccd350",
         "order": 5,
-        "width": 4,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "15b0baa554c39237",
+        "id": "e0257f6e8d05aeb5",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "244ec58c68ccd350",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3f6563d34c7b9387",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "244ec58c68ccd350",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "4d3766f86b6ce1be",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -420,7 +460,7 @@
         "height": 1
     },
     {
-        "id": "1163ba558cb90418",
+        "id": "ea0afb59bb7888dc",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -430,7 +470,7 @@
         "height": 1
     },
     {
-        "id": "ec3e07aea0e8bab6",
+        "id": "efb3f1548429c3fb",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -3445,9 +3485,9 @@
         "z": "5e246f6c64b79f72",
         "group": "244ec58c68ccd350",
         "name": "weathermap",
-        "width": 14,
+        "width": 15,
         "height": 10,
-        "order": 2,
+        "order": 6,
         "category": "wetter",
         "file": "radfilm_bbb_akt.gif",
         "layout": "center",
@@ -3468,8 +3508,8 @@
         "z": "5e246f6c64b79f72",
         "name": "",
         "group": "244ec58c68ccd350",
-        "order": 4,
-        "width": 4,
+        "order": 8,
+        "width": 3,
         "height": 1,
         "x": 1070,
         "y": 560,
