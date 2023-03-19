@@ -4086,7 +4086,7 @@
         "width": 4,
         "height": 4,
         "gtype": "compass",
-        "title": "{{msg.topic}}",
+        "title": "Wind aus {{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
         "format": "{{payload.winddirection}}",
         "min": 0,
