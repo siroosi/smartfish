@@ -360,7 +360,7 @@
         "className": ""
     },
     {
-        "id": "5bd6e9f4153493c9",
+        "id": "d7fc9083d26a3a86",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -370,17 +370,7 @@
         "height": 1
     },
     {
-        "id": "16176485b2231dda",
-        "type": "ui_spacer",
-        "z": "5e246f6c64b79f72",
-        "name": "spacer",
-        "group": "2549cedd67b83eef",
-        "order": 5,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "68e8a09f8ce4adf3",
+        "id": "1e86e12666d39965",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -390,7 +380,7 @@
         "height": 1
     },
     {
-        "id": "40a15aa2bfc004c0",
+        "id": "36b0a59c7074fe1a",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -400,7 +390,7 @@
         "height": 1
     },
     {
-        "id": "4b8c9bb16f5d1353",
+        "id": "74fec888a7af031e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -1771,7 +1761,7 @@
         "z": "1f71719cabb831b2",
         "name": "back",
         "group": "2549cedd67b83eef",
-        "order": 6,
+        "order": 5,
         "width": 4,
         "height": 1,
         "passthru": false,
@@ -4390,7 +4380,7 @@
         "group": "2549cedd67b83eef",
         "order": 2,
         "width": 4,
-        "height": 2,
+        "height": 3,
         "gtype": "compass",
         "title": "Wind aus {{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
