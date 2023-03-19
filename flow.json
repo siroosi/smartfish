@@ -3902,7 +3902,7 @@
         "name": "",
         "lat": "52.4066614",
         "lon": "12.5590947",
-        "zoom": "",
+        "zoom": "12",
         "layer": "OSMG",
         "cluster": "",
         "maxage": "",
