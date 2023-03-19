@@ -3786,7 +3786,7 @@
         "width": 8,
         "height": 8,
         "countdown": false,
-        "autoStart": false,
+        "autoStart": true,
         "hideCaptureButton": false,
         "showImage": "2",
         "mirror": true,
