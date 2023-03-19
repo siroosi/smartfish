@@ -158,7 +158,7 @@
         "tab": "c6d2088a8e2b5e62",
         "order": 1,
         "disp": false,
-        "width": "5",
+        "width": 5,
         "collapse": false,
         "className": ""
     },
@@ -344,7 +344,7 @@
         "tab": "c6d2088a8e2b5e62",
         "order": 2,
         "disp": false,
-        "width": "16",
+        "width": 14,
         "collapse": false,
         "className": ""
     },
@@ -360,7 +360,7 @@
         "className": ""
     },
     {
-        "id": "81cfec5393b9a059",
+        "id": "2a3637bad3d71194",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -370,7 +370,7 @@
         "height": 1
     },
     {
-        "id": "2ce04ab6927b58fc",
+        "id": "74db372f3e11ddb2",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -380,7 +380,7 @@
         "height": 1
     },
     {
-        "id": "31365af0aef526e8",
+        "id": "95e1f05b96907b2e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -390,7 +390,7 @@
         "height": 1
     },
     {
-        "id": "0e015adc68fa77cb",
+        "id": "76e6eb8dd9f7c910",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -400,17 +400,17 @@
         "height": 1
     },
     {
-        "id": "6968e5b3f41f3f2d",
+        "id": "15a07ae60a2fb822",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "244ec58c68ccd350",
         "order": 5,
-        "width": 6,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "b41121fdd74866ba",
+        "id": "15b0baa554c39237",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -420,7 +420,7 @@
         "height": 1
     },
     {
-        "id": "892dc151a2f0a259",
+        "id": "1163ba558cb90418",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -430,7 +430,7 @@
         "height": 1
     },
     {
-        "id": "dafd47b06d31c8fb",
+        "id": "ec3e07aea0e8bab6",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -1691,7 +1691,7 @@
         "name": "",
         "group": "244ec58c68ccd350",
         "order": 1,
-        "width": 16,
+        "width": 14,
         "height": 4,
         "x": 410,
         "y": 1260,
@@ -3445,7 +3445,7 @@
         "z": "5e246f6c64b79f72",
         "group": "244ec58c68ccd350",
         "name": "weathermap",
-        "width": 16,
+        "width": 14,
         "height": 10,
         "order": 2,
         "category": "wetter",
