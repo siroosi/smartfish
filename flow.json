@@ -102,8 +102,8 @@
             "allowTempTheme": "true",
             "dateFormat": "DD.MM.YYYY",
             "sizes": {
-                "sx": 29,
-                "sy": 29,
+                "sx": 24,
+                "sy": 24,
                 "gx": 1,
                 "gy": 1,
                 "cx": 2,
@@ -2681,7 +2681,7 @@
         "links": [
             "55b54b6bad573ec8"
         ],
-        "x": 835,
+        "x": 845,
         "y": 1080,
         "wires": []
     },
