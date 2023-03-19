@@ -30,7 +30,7 @@
             "darkTheme": {
                 "default": "#097479",
                 "baseColor": "#d56a00",
-                "baseFont": "Courier,monospace",
+                "baseFont": "Impact,Impact,Charcoal,sans-serif",
                 "edited": true,
                 "reset": false
             },
@@ -83,7 +83,7 @@
                     "edited": false
                 },
                 "base-font": {
-                    "value": "Courier,monospace"
+                    "value": "Impact,Impact,Charcoal,sans-serif"
                 }
             },
             "angularTheme": {
