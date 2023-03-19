@@ -30,7 +30,7 @@
             "darkTheme": {
                 "default": "#097479",
                 "baseColor": "#d56a00",
-                "baseFont": "Impact,Impact,Charcoal,sans-serif",
+                "baseFont": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace",
                 "edited": true,
                 "reset": false
             },
@@ -83,7 +83,7 @@
                     "edited": false
                 },
                 "base-font": {
-                    "value": "Impact,Impact,Charcoal,sans-serif"
+                    "value": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace"
                 }
             },
             "angularTheme": {
