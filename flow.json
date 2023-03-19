@@ -288,7 +288,7 @@
         "height": 1
     },
     {
-        "id": "f51f18aae1b0c82b",
+        "id": "f1b698e5d775f3a4",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -298,27 +298,27 @@
         "height": 1
     },
     {
-        "id": "e7dd9b9a7cdcd216",
+        "id": "32050d6914f1269e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "ded9de771fc64da5",
         "order": 7,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "af5476e1703ccfa3",
+        "id": "cf6569981e46605f",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "ded9de771fc64da5",
         "order": 11,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "2643bc30825ee88d",
+        "id": "43437aefe651345d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -328,7 +328,7 @@
         "height": 1
     },
     {
-        "id": "0ff5c424eecfab17",
+        "id": "c213c4b2f190a5b7",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -338,7 +338,7 @@
         "height": 1
     },
     {
-        "id": "99ef1c4c838f7670",
+        "id": "88af5fccc891e4cd",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -348,7 +348,7 @@
         "height": 1
     },
     {
-        "id": "dcc14d687ab12507",
+        "id": "910b25229d90fa24",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -358,7 +358,7 @@
         "height": 1
     },
     {
-        "id": "406c3b307ac7d5f7",
+        "id": "92289c0ce50fec9b",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -368,7 +368,7 @@
         "height": 1
     },
     {
-        "id": "47bd342b2ce9a879",
+        "id": "55e1949313672a1d",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -378,7 +378,7 @@
         "height": 1
     },
     {
-        "id": "c07b1e24630221aa",
+        "id": "6baed21e865181a1",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -388,7 +388,7 @@
         "height": 1
     },
     {
-        "id": "cc5a8bcc52ecf6bf",
+        "id": "e1e9d6d226061a24",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -398,7 +398,7 @@
         "height": 1
     },
     {
-        "id": "32ddd69a2c970469",
+        "id": "03fef536d90fef91",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -408,7 +408,7 @@
         "height": 1
     },
     {
-        "id": "97c9d9fa1dbd39a5",
+        "id": "bb94f80bc5a33d5c",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -418,7 +418,7 @@
         "height": 1
     },
     {
-        "id": "7ff9918f5038d696",
+        "id": "15847bd5445965e5",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -428,7 +428,7 @@
         "height": 1
     },
     {
-        "id": "7602fb9ef4189a63",
+        "id": "ba33b94dbf9405e3",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -637,8 +637,8 @@
         "label": "Wifi-check",
         "tooltip": "",
         "group": "ded9de771fc64da5",
-        "order": 5,
-        "width": 5,
+        "order": 6,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -843,7 +843,7 @@
         "id": "2017a666b2bac241",
         "type": "ui_led",
         "z": "1f71719cabb831b2",
-        "order": 6,
+        "order": 5,
         "group": "ded9de771fc64da5",
         "width": 1,
         "height": 1,
@@ -3146,8 +3146,8 @@
         "label": "dwd update",
         "tooltip": "",
         "group": "ded9de771fc64da5",
-        "order": 9,
-        "width": 5,
+        "order": 10,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -4316,7 +4316,7 @@
         "id": "c39d32d2a8c8a33d",
         "type": "ui_led",
         "z": "5e246f6c64b79f72",
-        "order": 10,
+        "order": 9,
         "group": "ded9de771fc64da5",
         "width": 1,
         "height": 1,
