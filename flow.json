@@ -343,7 +343,7 @@
         "name": "Group 2",
         "tab": "c6d2088a8e2b5e62",
         "order": 2,
-        "disp": true,
+        "disp": false,
         "width": "16",
         "collapse": false,
         "className": ""
@@ -354,7 +354,7 @@
         "name": "Group 3",
         "tab": "c6d2088a8e2b5e62",
         "order": 3,
-        "disp": true,
+        "disp": false,
         "width": "4",
         "collapse": false,
         "className": ""
