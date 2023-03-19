@@ -360,7 +360,7 @@
         "className": ""
     },
     {
-        "id": "d7a6245e810c8027",
+        "id": "c29b1947422b436f",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -370,7 +370,7 @@
         "height": 1
     },
     {
-        "id": "b35140544a9fe112",
+        "id": "c07abfe4f9ed8e32",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -380,7 +380,7 @@
         "height": 1
     },
     {
-        "id": "173140090b224912",
+        "id": "699c987a970f905b",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -390,7 +390,7 @@
         "height": 1
     },
     {
-        "id": "eb98ddb10180a8e3",
+        "id": "29f9cadd19ec26a9",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -400,7 +400,7 @@
         "height": 1
     },
     {
-        "id": "366230ee355a314f",
+        "id": "d327803d50c5c99e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -410,7 +410,7 @@
         "height": 1
     },
     {
-        "id": "6ab144ea3f157633",
+        "id": "774463dd088176e0",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -420,22 +420,12 @@
         "height": 1
     },
     {
-        "id": "e76b294ad688a682",
+        "id": "a39a498e1fb97d4e",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
         "group": "4f5df95921818e5a",
         "order": 5,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "caea2a423c42c5b2",
-        "type": "ui_spacer",
-        "z": "5e246f6c64b79f72",
-        "name": "spacer",
-        "group": "4f5df95921818e5a",
-        "order": 6,
         "width": 4,
         "height": 1
     },
@@ -4595,9 +4585,9 @@
         "z": "5e246f6c64b79f72",
         "name": "",
         "group": "4f5df95921818e5a",
-        "order": 7,
+        "order": 6,
         "width": 4,
-        "height": 5,
+        "height": 6,
         "label": "",
         "chartType": "line",
         "legend": "false",
