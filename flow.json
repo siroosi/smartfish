@@ -3202,7 +3202,7 @@
         "type": "ui_switch",
         "z": "5e246f6c64b79f72",
         "name": "",
-        "label": "radar update",
+        "label": "wetter update",
         "tooltip": "",
         "group": "ded9de771fc64da5",
         "order": 21,
@@ -3223,7 +3223,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 310,
+        "x": 300,
         "y": 140,
         "wires": [
             [
@@ -3297,7 +3297,7 @@
         "oldrc": false,
         "name": "gif dnload",
         "x": 280,
-        "y": 480,
+        "y": 520,
         "wires": [
             [],
             [
@@ -3325,7 +3325,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 520,
+        "y": 560,
         "wires": [
             [
                 "0d4d1dd0280a2edd",
@@ -3351,7 +3351,7 @@
         "payload": "100.0%",
         "payloadType": "str",
         "x": 290,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "e5218ba6dc918682"
@@ -3391,7 +3391,7 @@
         "showGlow": true,
         "name": "",
         "x": 1230,
-        "y": 520,
+        "y": 560,
         "wires": []
     },
     {
@@ -3414,7 +3414,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3441,7 +3441,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 520,
+        "y": 560,
         "wires": [
             [
                 "3cde9b74e2cf03a6",
@@ -3467,7 +3467,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 910,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "206239dd1ce5331f"
@@ -3492,7 +3492,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1050,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "3cde9b74e2cf03a6"
@@ -3517,7 +3517,7 @@
         "payload": "0",
         "payloadType": "num",
         "x": 130,
-        "y": 440,
+        "y": 480,
         "wires": [
             [
                 "65402a2498ef9275",
@@ -3549,7 +3549,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 460,
-        "y": 560,
+        "y": 600,
         "wires": [
             [
                 "0d4d1dd0280a2edd"
@@ -3576,7 +3576,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3608,7 +3608,7 @@
         "object": "msg",
         "objectout": "msg",
         "x": 610,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "11d19dadf193c9cd"
@@ -3656,7 +3656,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 770,
-        "y": 440,
+        "y": 480,
         "wires": []
     },
     {
@@ -3677,7 +3677,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "9dc74d152151d045"
@@ -3701,7 +3701,7 @@
         "name": "download radar image",
         "info": "",
         "x": 140,
-        "y": 380,
+        "y": 420,
         "wires": []
     },
     {
@@ -3714,7 +3714,7 @@
             "fcf792f0b28cddd5"
         ],
         "x": 585,
-        "y": 560,
+        "y": 600,
         "wires": []
     },
     {
@@ -3744,7 +3744,7 @@
         "cmdOutputs": 0,
         "killSignal": "SIGTERM",
         "x": 810,
-        "y": 660,
+        "y": 700,
         "wires": [
             []
         ]
@@ -3756,7 +3756,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 620,
+        "y": 660,
         "wires": [
             []
         ]
@@ -3781,7 +3781,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 620,
+        "y": 660,
         "wires": [
             [
                 "a7af5330867cbfad"
@@ -3795,7 +3795,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 660,
+        "y": 700,
         "wires": [
             []
         ]
@@ -3821,7 +3821,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 270,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "60a997f225afe2bb"
@@ -3850,7 +3850,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "5d6e7b1295d02a96"
@@ -3870,7 +3870,7 @@
         "oldrc": false,
         "name": "ffmpeg",
         "x": 290,
-        "y": 740,
+        "y": 780,
         "wires": [
             [],
             [],
@@ -3899,7 +3899,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 740,
+        "y": 780,
         "wires": [
             [
                 "fc60499c1dd14bdc"
@@ -3919,7 +3919,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 620,
-        "y": 760,
+        "y": 800,
         "wires": []
     },
     {
@@ -3934,7 +3934,7 @@
         "overwriteFile": "false",
         "encoding": "none",
         "x": 810,
-        "y": 860,
+        "y": 900,
         "wires": [
             []
         ]
@@ -3946,7 +3946,7 @@
         "name": "",
         "language": "ger",
         "x": 360,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "80aa77d47da61c50",
@@ -3972,7 +3972,7 @@
         "payload": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp1.png",
         "payloadType": "str",
         "x": 130,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "632072a5d318d5e9"
