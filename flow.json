@@ -3780,7 +3780,7 @@
         "id": "4c2deaa6e2cb01d1",
         "type": "ui_webcam",
         "z": "1f71719cabb831b2",
-        "name": "",
+        "name": "093a:2468",
         "group": "ded9de771fc64da5",
         "order": 16,
         "width": 8,
@@ -3791,7 +3791,7 @@
         "showImage": "2",
         "mirror": true,
         "format": "png",
-        "x": 720,
+        "x": 730,
         "y": 800,
         "wires": [
             []
