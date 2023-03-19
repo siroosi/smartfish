@@ -3124,8 +3124,8 @@
         "onstart": false,
         "scope": "local",
         "tooltip": "",
-        "x": 950,
-        "y": 180,
+        "x": 830,
+        "y": 120,
         "wires": [
             []
         ]
@@ -3139,8 +3139,8 @@
         "order": 22,
         "width": 2,
         "height": 1,
-        "x": 950,
-        "y": 220,
+        "x": 990,
+        "y": 160,
         "wires": []
     },
     {
@@ -3162,8 +3162,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 180,
+        "x": 610,
+        "y": 120,
         "wires": [
             [
                 "b0ede0269d8bbe42",
@@ -3175,7 +3175,7 @@
         "id": "d60be81f1bd63444",
         "type": "trigger",
         "z": "5e246f6c64b79f72",
-        "name": "int55s",
+        "name": "int5m",
         "op1": "1",
         "op2": "1",
         "op1type": "str",
@@ -3189,7 +3189,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 450,
-        "y": 100,
+        "y": 140,
         "wires": [
             [
                 "8e337d9b3201b995",
@@ -3223,8 +3223,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 290,
-        "y": 100,
+        "x": 310,
+        "y": 140,
         "wires": [
             [
                 "d60be81f1bd63444"
@@ -3248,8 +3248,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
-        "y": 180,
+        "x": 130,
+        "y": 120,
         "wires": [
             [
                 "880b9dad88d8259e",
@@ -3276,8 +3276,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 220,
+        "x": 810,
+        "y": 160,
         "wires": [
             [
                 "346d954bc9902978"
@@ -3297,7 +3297,7 @@
         "oldrc": false,
         "name": "gif dnload",
         "x": 280,
-        "y": 400,
+        "y": 480,
         "wires": [
             [],
             [
@@ -3325,7 +3325,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 440,
+        "y": 520,
         "wires": [
             [
                 "0d4d1dd0280a2edd",
@@ -3351,7 +3351,7 @@
         "payload": "100.0%",
         "payloadType": "str",
         "x": 290,
-        "y": 460,
+        "y": 540,
         "wires": [
             [
                 "e5218ba6dc918682"
@@ -3391,7 +3391,7 @@
         "showGlow": true,
         "name": "",
         "x": 1230,
-        "y": 440,
+        "y": 520,
         "wires": []
     },
     {
@@ -3414,7 +3414,7 @@
         "to": "",
         "reg": false,
         "x": 270,
-        "y": 500,
+        "y": 580,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3441,7 +3441,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 440,
+        "y": 520,
         "wires": [
             [
                 "3cde9b74e2cf03a6",
@@ -3467,7 +3467,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 910,
-        "y": 500,
+        "y": 580,
         "wires": [
             [
                 "206239dd1ce5331f"
@@ -3492,7 +3492,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1050,
-        "y": 500,
+        "y": 580,
         "wires": [
             [
                 "3cde9b74e2cf03a6"
@@ -3517,7 +3517,7 @@
         "payload": "0",
         "payloadType": "num",
         "x": 130,
-        "y": 360,
+        "y": 440,
         "wires": [
             [
                 "65402a2498ef9275",
@@ -3549,7 +3549,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 460,
-        "y": 480,
+        "y": 560,
         "wires": [
             [
                 "0d4d1dd0280a2edd"
@@ -3576,7 +3576,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 460,
+        "y": 540,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -3608,7 +3608,7 @@
         "object": "msg",
         "objectout": "msg",
         "x": 610,
-        "y": 380,
+        "y": 460,
         "wires": [
             [
                 "11d19dadf193c9cd"
@@ -3656,7 +3656,7 @@
         "bgcolorFromTheme": true,
         "diffCenter": "",
         "x": 770,
-        "y": 360,
+        "y": 440,
         "wires": []
     },
     {
@@ -3677,7 +3677,7 @@
         "repair": false,
         "outputs": 1,
         "x": 470,
-        "y": 380,
+        "y": 460,
         "wires": [
             [
                 "9dc74d152151d045"
@@ -3691,7 +3691,7 @@
         "name": "display radar",
         "info": "",
         "x": 110,
-        "y": 40,
+        "y": 60,
         "wires": []
     },
     {
@@ -3701,7 +3701,7 @@
         "name": "download radar image",
         "info": "",
         "x": 140,
-        "y": 300,
+        "y": 380,
         "wires": []
     },
     {
@@ -3714,7 +3714,7 @@
             "fcf792f0b28cddd5"
         ],
         "x": 585,
-        "y": 480,
+        "y": 560,
         "wires": []
     },
     {
@@ -3726,7 +3726,7 @@
             "9265e6263cbe685e"
         ],
         "x": 485,
-        "y": 220,
+        "y": 100,
         "wires": [
             [
                 "8e337d9b3201b995"
@@ -3744,7 +3744,7 @@
         "cmdOutputs": 0,
         "killSignal": "SIGTERM",
         "x": 810,
-        "y": 580,
+        "y": 660,
         "wires": [
             []
         ]
@@ -3756,7 +3756,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 540,
+        "y": 620,
         "wires": [
             []
         ]
@@ -3781,7 +3781,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 540,
+        "y": 620,
         "wires": [
             [
                 "a7af5330867cbfad"
@@ -3795,7 +3795,7 @@
         "name": "change tab",
         "events": "all",
         "x": 630,
-        "y": 580,
+        "y": 660,
         "wires": [
             []
         ]
@@ -3821,7 +3821,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 270,
-        "y": 580,
+        "y": 660,
         "wires": [
             [
                 "60a997f225afe2bb"
@@ -3850,7 +3850,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 580,
+        "y": 660,
         "wires": [
             [
                 "5d6e7b1295d02a96"
@@ -3870,7 +3870,7 @@
         "oldrc": false,
         "name": "ffmpeg",
         "x": 290,
-        "y": 660,
+        "y": 740,
         "wires": [
             [],
             [],
@@ -3899,7 +3899,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 660,
+        "y": 740,
         "wires": [
             [
                 "fc60499c1dd14bdc"
@@ -3919,7 +3919,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 620,
-        "y": 680,
+        "y": 760,
         "wires": []
     },
     {
@@ -3934,7 +3934,7 @@
         "overwriteFile": "false",
         "encoding": "none",
         "x": 810,
-        "y": 780,
+        "y": 860,
         "wires": [
             []
         ]
@@ -3946,7 +3946,7 @@
         "name": "",
         "language": "ger",
         "x": 360,
-        "y": 780,
+        "y": 860,
         "wires": [
             [
                 "80aa77d47da61c50",
@@ -3972,7 +3972,7 @@
         "payload": "/home/fish/.node-red/projects/fishcontrol/files/wetter/radar/temp/temp1.png",
         "payloadType": "str",
         "x": 130,
-        "y": 780,
+        "y": 860,
         "wires": [
             [
                 "632072a5d318d5e9"
@@ -3990,8 +3990,8 @@
         "omitMessageOnStart": true,
         "repeat": "0",
         "topic": "",
-        "x": 610,
-        "y": 100,
+        "x": 630,
+        "y": 200,
         "wires": [
             [
                 "134bebce82161143",
@@ -4072,15 +4072,15 @@
         "lineWidth": "13",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 930,
-        "y": 100,
+        "x": 810,
+        "y": 240,
         "wires": []
     },
     {
         "id": "c5d07b13df38f4b5",
         "type": "ui_gauge",
         "z": "5e246f6c64b79f72",
-        "name": "",
+        "name": "wind",
         "group": "2549cedd67b83eef",
         "order": 19,
         "width": 4,
@@ -4100,23 +4100,23 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 940,
-        "y": 140,
+        "x": 970,
+        "y": 200,
         "wires": []
     },
     {
         "id": "033ea7e829fda05b",
         "type": "function",
         "z": "5e246f6c64b79f72",
-        "name": "function 1",
+        "name": "direction",
         "func": "if (msg.payload.winddirection <= 11.25) {\n    msg.topic = \"Nord\";\n} else if (msg.payload.winddirection <= 33.75) {\n    msg.topic = \"NNO\";\n} else if (msg.payload.winddirection <= 56.25) {\n    msg.topic = \"NO\";\n} else if (msg.payload.winddirection <= 78.75) {\n    msg.topic = \"ONO\";\n} else if (msg.payload.winddirection <= 101.25) {\n    msg.topic = \"Ost\";\n} else if (msg.payload.winddirection <= 123.75) {\n    msg.topic = \"OSO\";\n} else if (msg.payload.winddirection <= 146.25) {\n    msg.topic = \"SO\";\n} else if (msg.payload.winddirection < 168.75) {\n    msg.topic = \"SSO\";\n} else if (msg.payload.winddirection < 191.25) {\n    msg.topic = \"Süd\";\n} else if (msg.payload.winddirection <= 213.75) {\n    msg.topic = \"SSW\";\n} else if (msg.payload.winddirection <= 236.25) {\n    msg.topic = \"SW\";\n} else if (msg.payload.winddirection <= 258.75) {\n    msg.topic = \"WSW\";\n} else if (msg.payload.winddirection <= 281.25) {\n    msg.topic = \"West\";\n} else if (msg.payload.winddirection <= 303.75) {\n    msg.topic = \"WNW\";\n} else if (msg.payload.winddirection <= 326.25) {\n    msg.topic = \"NW\";\n} else if (msg.payload.winddirection <= 348.75) {\n    msg.topic = \"NNW\";\n} else if (msg.payload.winddirection >= 337.50) {\n    msg.topic = \"Nord\";\n} else {\n    msg.topic = \"error\";}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 140,
+        "x": 820,
+        "y": 200,
         "wires": [
             [
                 "c5d07b13df38f4b5"
@@ -4193,8 +4193,8 @@
         "lineWidth": "13",
         "bgcolorFromTheme": true,
         "diffCenter": "",
-        "x": 950,
-        "y": 60,
+        "x": 830,
+        "y": 320,
         "wires": []
     },
     {
@@ -4207,7 +4207,7 @@
         "width": 3,
         "height": 3,
         "gtype": "donut",
-        "title": "Regen",
+        "title": "Regen.l",
         "label": "l/m²",
         "format": "{{payload.precipitationNext24h}}",
         "min": 0,
@@ -4221,8 +4221,8 @@
         "seg2": "3",
         "diff": false,
         "className": "",
-        "x": 950,
-        "y": 300,
+        "x": 820,
+        "y": 360,
         "wires": []
     },
     {
@@ -4235,7 +4235,7 @@
         "width": 3,
         "height": 3,
         "gtype": "donut",
-        "title": "Regen",
+        "title": "Regen.%",
         "label": "% chance",
         "format": "{{payload.precipitation_perc}}",
         "min": 0,
@@ -4249,8 +4249,8 @@
         "seg2": "66",
         "diff": false,
         "className": "",
-        "x": 950,
-        "y": 260,
+        "x": 820,
+        "y": 280,
         "wires": []
     }
 ]
