@@ -450,37 +450,27 @@
         "height": 1
     },
     {
-        "id": "e0715e1a5da8b034",
+        "id": "17be72d6696689e4",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
         "group": "2549cedd67b83eef",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "c679c5bf6a3fd720",
-        "type": "ui_spacer",
-        "z": "1f71719cabb831b2",
-        "name": "spacer",
-        "group": "2549cedd67b83eef",
-        "order": 5,
+        "order": 4,
         "width": 1,
         "height": 1
     },
     {
-        "id": "470dc64413d55aaf",
+        "id": "35bb1f0475a32718",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
         "group": "2549cedd67b83eef",
-        "order": 7,
+        "order": 6,
         "width": 1,
         "height": 1
     },
     {
-        "id": "364e2fe9bef3311a",
+        "id": "0eca77440672971b",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -490,7 +480,7 @@
         "height": 1
     },
     {
-        "id": "eeca6cd8e80c50d5",
+        "id": "c7c3cb3caed9b810",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -500,7 +490,7 @@
         "height": 1
     },
     {
-        "id": "8a87c26bdf087544",
+        "id": "c6e824147e42b6b7",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -510,7 +500,7 @@
         "height": 1
     },
     {
-        "id": "087f89399cc1bce8",
+        "id": "f4892d6ce06db438",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -520,7 +510,7 @@
         "height": 1
     },
     {
-        "id": "0b8cafb4d2200269",
+        "id": "26f791207a249788",
         "type": "ui_spacer",
         "z": "1f71719cabb831b2",
         "name": "spacer",
@@ -4783,7 +4773,7 @@
         "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
         "group": "2549cedd67b83eef",
-        "order": 3,
+        "order": 2,
         "width": 6,
         "height": 6,
         "name": "temp",
@@ -4858,9 +4848,9 @@
         "z": "5e246f6c64b79f72",
         "name": "wind",
         "group": "2549cedd67b83eef",
-        "order": 2,
+        "order": 1,
         "width": 6,
-        "height": 4,
+        "height": 5,
         "gtype": "compass",
         "title": "Wind aus {{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
@@ -4904,7 +4894,7 @@
         "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
         "group": "2549cedd67b83eef",
-        "order": 4,
+        "order": 3,
         "width": 6,
         "height": 6,
         "name": "luftfeuchte",
@@ -5245,7 +5235,7 @@
         "z": "5e246f6c64b79f72",
         "name": "back",
         "group": "2549cedd67b83eef",
-        "order": 6,
+        "order": 5,
         "width": 4,
         "height": 1,
         "passthru": false,
