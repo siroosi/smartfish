@@ -1874,7 +1874,7 @@
         "label": "wetter info",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#C0C0C0",
         "className": "",
         "icon": "",
         "payload": "clock",
