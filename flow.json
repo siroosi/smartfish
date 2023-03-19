@@ -1843,7 +1843,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "wetter info",
+        "label": "wetter</>info",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
@@ -3403,7 +3403,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 850,
-        "y": 1120,
+        "y": 1360,
         "wires": [
             [
                 "a0558f45924f787d"
@@ -3417,8 +3417,8 @@
         "name": "log",
         "filename": "/home/fish/wetter.log.csv",
         "encoding": "none",
-        "x": 890,
-        "y": 1120,
+        "x": 1130,
+        "y": 1360,
         "wires": []
     },
     {
