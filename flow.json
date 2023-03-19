@@ -525,8 +525,8 @@
         "timer": "",
         "winHide": false,
         "oldrc": false,
-        "name": "connect",
-        "x": 1100,
+        "name": "login",
+        "x": 1090,
         "y": 200,
         "wires": [
             [
@@ -1693,8 +1693,8 @@
         "order": 1,
         "width": 14,
         "height": 4,
-        "x": 410,
-        "y": 1360,
+        "x": 650,
+        "y": 1340,
         "wires": []
     },
     {
@@ -1719,7 +1719,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 170,
-        "y": 1320,
+        "y": 1300,
         "wires": [
             [
                 "26c1e1548917693c",
@@ -1764,8 +1764,8 @@
         "order": 4,
         "width": 9,
         "height": 4,
-        "x": 410,
-        "y": 1320,
+        "x": 650,
+        "y": 1300,
         "wires": []
     },
     {
@@ -3075,8 +3075,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1020,
+        "x": 470,
+        "y": 980,
         "wires": [
             [
                 "70c4649679021af7"
@@ -3109,8 +3109,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1060,
+        "x": 470,
+        "y": 1020,
         "wires": [
             [
                 "3f619aaa1ae34c8d"
@@ -3143,8 +3143,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1100,
+        "x": 470,
+        "y": 1060,
         "wires": [
             [
                 "1a404aa05b14a907"
@@ -3177,8 +3177,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1140,
+        "x": 470,
+        "y": 1100,
         "wires": [
             [
                 "8d145b952f31ae94"
@@ -3211,8 +3211,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1180,
+        "x": 470,
+        "y": 1140,
         "wires": [
             [
                 "6b379abcdb07908a"
@@ -3246,8 +3246,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1020,
+        "x": 630,
+        "y": 980,
         "wires": []
     },
     {
@@ -3277,8 +3277,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1060,
+        "x": 630,
+        "y": 1020,
         "wires": []
     },
     {
@@ -3308,8 +3308,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1100,
+        "x": 630,
+        "y": 1060,
         "wires": []
     },
     {
@@ -3339,8 +3339,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1140,
+        "x": 630,
+        "y": 1100,
         "wires": []
     },
     {
@@ -3370,8 +3370,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1180,
+        "x": 630,
+        "y": 1140,
         "wires": []
     },
     {
@@ -3401,8 +3401,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 910,
-        "y": 1220,
+        "x": 630,
+        "y": 1180,
         "wires": []
     },
     {
@@ -3431,8 +3431,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 690,
-        "y": 1220,
+        "x": 470,
+        "y": 1180,
         "wires": [
             [
                 "2d9787d95981a70f"
@@ -3449,7 +3449,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "\"wetter log\" \\n \"download\"",
+        "label": "wetter log \\n download",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -3459,8 +3459,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 110,
-        "y": 1220,
+        "x": 180,
+        "y": 1240,
         "wires": [
             [
                 "a0558f45924f787d"
@@ -3474,8 +3474,8 @@
         "name": "",
         "filename": "/home/fish/wetter.log.csv",
         "encoding": "none",
-        "x": 410,
-        "y": 1220,
+        "x": 650,
+        "y": 1240,
         "wires": []
     },
     {
