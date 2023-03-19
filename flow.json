@@ -634,7 +634,7 @@
         "type": "ui_switch",
         "z": "1f71719cabb831b2",
         "name": "Wifi-Watchdog",
-        "label": "Wifi-Watchdog",
+        "label": "Wifi-check",
         "tooltip": "",
         "group": "ded9de771fc64da5",
         "order": 5,
@@ -3143,7 +3143,7 @@
         "type": "ui_switch",
         "z": "5e246f6c64b79f72",
         "name": "",
-        "label": "wetter update",
+        "label": "dwd update",
         "tooltip": "",
         "group": "ded9de771fc64da5",
         "order": 9,
@@ -3164,7 +3164,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 320,
+        "x": 310,
         "y": 160,
         "wires": [
             [
