@@ -128,8 +128,8 @@
         "name": "Sysconf",
         "tab": "6b4a2f52d38b44b5",
         "order": 1,
-        "disp": true,
-        "width": 30,
+        "disp": false,
+        "width": "30",
         "collapse": false,
         "className": ""
     },
