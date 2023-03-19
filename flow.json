@@ -95,7 +95,7 @@
             }
         },
         "site": {
-            "name": "Node-RED Dashboard",
+            "name": "fishcontrol",
             "hideToolbar": "true",
             "allowSwipe": "false",
             "lockMenu": "false",
@@ -3545,7 +3545,7 @@
         "type": "ui_switch",
         "z": "5e246f6c64b79f72",
         "name": "",
-        "label": "dwd update",
+        "label": "dwd live",
         "tooltip": "",
         "group": "ded9de771fc64da5",
         "order": 10,
@@ -3566,7 +3566,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 310,
+        "x": 300,
         "y": 160,
         "wires": [
             [
