@@ -3496,7 +3496,7 @@
         "y": 980,
         "wires": [
             [
-                "a0558f45924f787d"
+                "c33d9c79eaf471ea"
             ]
         ]
     },
@@ -3507,8 +3507,8 @@
         "name": "log",
         "filename": "/home/fish/wetter.log.csv",
         "encoding": "none",
-        "x": 950,
-        "y": 1060,
+        "x": 1010,
+        "y": 1100,
         "wires": []
     },
     {
@@ -3902,6 +3902,26 @@
         "x": 600,
         "y": 740,
         "wires": []
+    },
+    {
+        "id": "c33d9c79eaf471ea",
+        "type": "file in",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1000,
+        "y": 1040,
+        "wires": [
+            [
+                "a0558f45924f787d"
+            ]
+        ]
     },
     {
         "id": "b0ede0269d8bbe42",
