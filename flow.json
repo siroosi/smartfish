@@ -358,7 +358,7 @@
         "width": 6
     },
     {
-        "id": "61d08e31e5e37454",
+        "id": "18308d137d0ff1f8",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -368,7 +368,7 @@
         "height": 1
     },
     {
-        "id": "a31feb10fb0adc97",
+        "id": "90bc147457118961",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -378,7 +378,7 @@
         "height": 1
     },
     {
-        "id": "b4d7c32bdf515870",
+        "id": "ef523255f206466b",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -388,7 +388,7 @@
         "height": 1
     },
     {
-        "id": "4a18b90825a187c3",
+        "id": "965e83e019734a3a",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -398,7 +398,7 @@
         "height": 1
     },
     {
-        "id": "4403a4e81a948580",
+        "id": "963e3d154b0b08e4",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -408,7 +408,7 @@
         "height": 1
     },
     {
-        "id": "494fcf3a0197a93d",
+        "id": "35fe659b21a3b8f2",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -418,7 +418,7 @@
         "height": 1
     },
     {
-        "id": "0d7126cc6abeae56",
+        "id": "885d7f634da65c66",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -428,7 +428,7 @@
         "height": 1
     },
     {
-        "id": "c25322566270ec94",
+        "id": "a2d46ed5782f7e32",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -438,7 +438,7 @@
         "height": 1
     },
     {
-        "id": "8bb413e5a6127fcd",
+        "id": "0250954e75ba35ed",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -448,7 +448,7 @@
         "height": 1
     },
     {
-        "id": "94358fe9dc548add",
+        "id": "df9843b7066c89d5",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -458,7 +458,7 @@
         "height": 1
     },
     {
-        "id": "e89271fc7e815844",
+        "id": "a517900c2683e8c1",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -468,7 +468,7 @@
         "height": 1
     },
     {
-        "id": "d322243600781448",
+        "id": "4c49ec8916524a47",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -478,7 +478,7 @@
         "height": 1
     },
     {
-        "id": "74dd3cb4113fcf0d",
+        "id": "1259d21b2fc35b9f",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -4198,7 +4198,7 @@
         "height": 3,
         "gtype": "wave",
         "title": "Regen",
-        "label": "menge l/m² in 24h",
+        "label": "l/m² in 24h",
         "format": "{{payload.precipitationNext24h}}",
         "min": 0,
         "max": "30",
@@ -4226,8 +4226,8 @@
         "height": 3,
         "gtype": "wave",
         "title": "Regen",
-        "label": "wahrscheinlichkeit",
-        "format": "{{payload.precipitation_perc}}\" %\"",
+        "label": "% chance",
+        "format": "{{payload.precipitation_perc}}",
         "min": 0,
         "max": "100",
         "colors": [
