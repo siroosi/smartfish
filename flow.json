@@ -360,7 +360,7 @@
         "className": ""
     },
     {
-        "id": "d7fc9083d26a3a86",
+        "id": "debf302dec7936e8",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -370,7 +370,17 @@
         "height": 1
     },
     {
-        "id": "1e86e12666d39965",
+        "id": "e04085d4ad62382d",
+        "type": "ui_spacer",
+        "z": "5e246f6c64b79f72",
+        "name": "spacer",
+        "group": "2549cedd67b83eef",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4188c22ae7825330",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -380,7 +390,7 @@
         "height": 1
     },
     {
-        "id": "36b0a59c7074fe1a",
+        "id": "dbb47026ad99acc1",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -390,7 +400,7 @@
         "height": 1
     },
     {
-        "id": "74fec888a7af031e",
+        "id": "5981673d148fc451",
         "type": "ui_spacer",
         "z": "5e246f6c64b79f72",
         "name": "spacer",
@@ -1761,7 +1771,7 @@
         "z": "1f71719cabb831b2",
         "name": "back",
         "group": "2549cedd67b83eef",
-        "order": 5,
+        "order": 6,
         "width": 4,
         "height": 1,
         "passthru": false,
@@ -3406,7 +3416,7 @@
         "group": "244ec58c68ccd350",
         "name": "weathermap",
         "width": 16,
-        "height": 8,
+        "height": 10,
         "order": 2,
         "category": "wetter",
         "file": "radfilm_bbb_akt.gif",
@@ -4380,7 +4390,7 @@
         "group": "2549cedd67b83eef",
         "order": 2,
         "width": 4,
-        "height": 3,
+        "height": 4,
         "gtype": "compass",
         "title": "Wind aus {{msg.topic}}",
         "label": "{{msg.payload.windspeed}} km/h",
@@ -4557,7 +4567,7 @@
         "group": "4f5df95921818e5a",
         "order": 4,
         "width": 4,
-        "height": 6,
+        "height": 8,
         "label": "",
         "chartType": "line",
         "legend": "false",
