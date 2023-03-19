@@ -3979,8 +3979,8 @@
                 "25e4ac101ee3fe6f",
                 "77b76a31af02b750",
                 "fe9c82c82b8844c3",
-                "e4f3a7707aa5a0e0",
-                "1e85b90333fa061f"
+                "1e85b90333fa061f",
+                "5dc6d620f93ffcc4"
             ]
         ]
     },
@@ -4273,12 +4273,10 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 810,
+        "x": 1110,
         "y": 400,
         "wires": [
-            [
-                "1332e44f85166c3c"
-            ]
+            []
         ]
     },
     {
@@ -4309,22 +4307,6 @@
         ]
     },
     {
-        "id": "1332e44f85166c3c",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 400,
-        "wires": []
-    },
-    {
         "id": "cff9315c98fb72ac",
         "type": "file",
         "z": "5e246f6c64b79f72",
@@ -4339,6 +4321,33 @@
         "y": 440,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "5dc6d620f93ffcc4",
+        "type": "change",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.tempc",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 400,
+        "wires": [
+            [
+                "e4f3a7707aa5a0e0"
+            ]
         ]
     }
 ]
