@@ -3452,7 +3452,7 @@
         "label": "wetter log \\n download",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": " #5f6a6a ",
         "className": "",
         "icon": "",
         "payload": "",
