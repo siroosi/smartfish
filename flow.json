@@ -3048,6 +3048,371 @@
         "wires": []
     },
     {
+        "id": "e3df48c44c75bb45",
+        "type": "ui_switch",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da2e58888cd8cb7a",
+        "type": "ui_switch",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e27c5c2af6332c3",
+        "type": "ui_switch",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "620d2333e2ce3852",
+        "type": "ui_switch",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed5f4ad40a849e43",
+        "type": "ui_switch",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 690,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1dd5825b1cf2cb08",
+        "type": "ui_slider",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 690,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70c4649679021af7",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 32,
+        "group": "ded9de771fc64da5",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "3f619aaa1ae34c8d",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "1a404aa05b14a907",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "8d145b952f31ae94",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "6b379abcdb07908a",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "2d9787d95981a70f",
+        "type": "ui_led",
+        "z": "1f71719cabb831b2",
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 1220,
+        "wires": []
+    },
+    {
         "id": "b0ede0269d8bbe42",
         "type": "ui_media",
         "z": "5e246f6c64b79f72",
