@@ -4206,7 +4206,7 @@
         "order": 17,
         "width": 3,
         "height": 3,
-        "gtype": "wave",
+        "gtype": "donut",
         "title": "Regen",
         "label": "l/m²",
         "format": "{{payload.precipitationNext24h}}",
