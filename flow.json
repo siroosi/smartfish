@@ -102,10 +102,10 @@
             "allowTempTheme": "true",
             "dateFormat": "DD.MM.YYYY",
             "sizes": {
-                "sx": 30,
-                "sy": 30,
+                "sx": 29,
+                "sy": 29,
                 "gx": 1,
-                "gy": 0,
+                "gy": 1,
                 "cx": 2,
                 "cy": 2,
                 "px": 0,
