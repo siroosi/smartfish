@@ -4012,10 +4012,10 @@
         "id": "524e456d0dc76539",
         "type": "comment",
         "z": "5e246f6c64b79f72",
-        "name": "display radar",
+        "name": "wetter anzeige und logging",
         "info": "",
-        "x": 110,
-        "y": 160,
+        "x": 150,
+        "y": 120,
         "wires": []
     },
     {
