@@ -655,7 +655,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "{{msg.payload.background}}",
-        "animate": false,
+        "animate": true,
         "className": "",
         "x": 420,
         "y": 680,
