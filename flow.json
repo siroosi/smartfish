@@ -400,6 +400,22 @@
         "height": 1
     },
     {
+        "id": "a1fb98672e603abd",
+        "type": "ui_link",
+        "name": "Link 6",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 6
+    },
+    {
+        "id": "bae0dde6212b66f5",
+        "type": "ui_link",
+        "name": "Link 7",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 7
+    },
+    {
         "id": "f2ce91973a37e240",
         "type": "inject",
         "z": "1f71719cabb831b2",
@@ -1653,8 +1669,8 @@
         "order": 1,
         "width": 18,
         "height": 4,
-        "x": 730,
-        "y": 1360,
+        "x": 750,
+        "y": 1420,
         "wires": []
     },
     {
@@ -1678,8 +1694,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 410,
-        "y": 1340,
+        "x": 430,
+        "y": 1400,
         "wires": [
             [
                 "26c1e1548917693c",
@@ -1724,8 +1740,8 @@
         "order": 5,
         "width": 9,
         "height": 4,
-        "x": 890,
-        "y": 1340,
+        "x": 910,
+        "y": 1400,
         "wires": []
     },
     {
@@ -2748,8 +2764,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "start chromium",
-        "x": 420,
-        "y": 660,
+        "x": 740,
+        "y": 1340,
         "wires": [
             [],
             [],
@@ -3795,6 +3811,60 @@
         "y": 800,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "28e585ec9b396214",
+        "type": "ui_button",
+        "z": "1f71719cabb831b2",
+        "name": "",
+        "group": "ded9de771fc64da5",
+        "order": 50,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "reload",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 1340,
+        "wires": [
+            [
+                "f8936714e9bdf769",
+                "a45a78c747cccbcf"
+            ]
+        ]
+    },
+    {
+        "id": "f8936714e9bdf769",
+        "type": "delay",
+        "z": "1f71719cabb831b2",
+        "name": "2s",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 1340,
+        "wires": [
+            [
+                "18273ab4afbfd524"
+            ]
         ]
     },
     {
