@@ -3392,7 +3392,7 @@
         "width": 3,
         "height": 2,
         "passthru": false,
-        "label": "<span style=\"font-size:10px\">wetter<br>log</span>",
+        "label": "<span style=\"font-size:8px\">wetter<br>log</span>",
         "tooltip": "",
         "color": "",
         "bgcolor": "{{msg.background}}",
