@@ -4331,9 +4331,9 @@
         "rules": [
             {
                 "t": "set",
-                "p": "payload.tempc",
+                "p": "payload",
                 "pt": "msg",
-                "to": "payload",
+                "to": "payload.tempc",
                 "tot": "msg"
             }
         ],
@@ -4342,7 +4342,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 870,
+        "x": 850,
         "y": 400,
         "wires": [
             [
