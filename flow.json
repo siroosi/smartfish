@@ -3535,7 +3535,7 @@
         "to": "",
         "reg": false,
         "x": 630,
-        "y": 320,
+        "y": 520,
         "wires": [
             [
                 "b0ede0269d8bbe42",
@@ -3623,7 +3623,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 130,
-        "y": 320,
+        "y": 160,
         "wires": [
             [
                 "880b9dad88d8259e",
