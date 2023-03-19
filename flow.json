@@ -4208,7 +4208,7 @@
         "height": 3,
         "gtype": "wave",
         "title": "Regen",
-        "label": "l/m² in 24h",
+        "label": "l/m²",
         "format": "{{payload.precipitationNext24h}}",
         "min": 0,
         "max": "30",
