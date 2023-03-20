@@ -4153,7 +4153,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 810,
+        "x": 1130,
         "y": 740,
         "wires": []
     },
@@ -4177,7 +4177,7 @@
         "to": "",
         "reg": false,
         "x": 290,
-        "y": 820,
+        "y": 780,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -4229,8 +4229,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 630,
-        "y": 820,
+        "x": 870,
+        "y": 780,
         "wires": [
             [
                 "206239dd1ce5331f"
@@ -4254,8 +4254,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 630,
-        "y": 860,
+        "x": 990,
+        "y": 780,
         "wires": [
             [
                 "3cde9b74e2cf03a6"
@@ -4338,8 +4338,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 630,
-        "y": 780,
+        "x": 750,
+        "y": 760,
         "wires": [
             [
                 "3cfc2cfa8efa1143"
@@ -4604,7 +4604,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "ffmpeg",
-        "x": 290,
+        "x": 300,
         "y": 940,
         "wires": [
             [],
@@ -4668,7 +4668,7 @@
         "createDir": false,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 670,
+        "x": 680,
         "y": 980,
         "wires": [
             []
