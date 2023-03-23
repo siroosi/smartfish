@@ -5378,5 +5378,34 @@
                 "f9988320eab561c3"
             ]
         ]
+    },
+    {
+        "id": "6e120cf81ad950a9",
+        "type": "inject",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 680,
+        "wires": [
+            [
+                "943c4bacaa3a6163"
+            ]
+        ]
     }
 ]
