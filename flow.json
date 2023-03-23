@@ -3038,7 +3038,7 @@
         "width": 2,
         "height": 2,
         "passthru": false,
-        "label": "<font size=\"1\">shut<br>down</font>",
+        "label": "<p style=“line-height: 50%“><font size=\"1\">shut<br>down</font></p>",
         "tooltip": "",
         "color": "",
         "bgcolor": " #c0392b ",
@@ -3048,7 +3048,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 490,
+        "x": 590,
         "y": 1220,
         "wires": [
             [
