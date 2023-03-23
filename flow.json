@@ -16,6 +16,21 @@
         "env": []
     },
     {
+        "id": "33077c64c337a4b2",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "60463e3a.b7fb4",
+        "type": "tab",
+        "label": "graph csv",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "12558bde57882678",
         "type": "ui_base",
         "theme": {
@@ -187,7 +202,7 @@
         "tab": "617551717e15cb3d",
         "order": 1,
         "disp": true,
-        "width": 6
+        "width": 30
     },
     {
         "id": "244ec58c68ccd350",
@@ -421,6 +436,164 @@
         "width": 24,
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "2ac8e3fa.8b8584",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "ebb1ed1c.5ebe2",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ebb1ed1c.5ebe2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cb3971fdd02b90bb",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "cbe3af3007fbc1c8",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a978b3630a5083d5",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "67f2439c56edbd13",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aefff3364f11c642",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 7,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "0415be5c008ce410",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 8,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "4b2bd0d9ea26ee0f",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 9,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "cb5f4ec1b434bf10",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 10,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "22e89cab21217623",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 11,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "4c70e1fe98f28b2f",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 13,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "f485f784452c315a",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 14,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "a99ea4bebeb664a5",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 16,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "bdc8994611f7d24c",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 17,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "13b3ca5d40ce28a4",
+        "type": "ui_spacer",
+        "z": "60463e3a.b7fb4",
+        "name": "spacer",
+        "group": "19542e2ab6026737",
+        "order": 18,
+        "width": 11,
+        "height": 1
     },
     {
         "id": "f2ce91973a37e240",
@@ -4117,7 +4290,7 @@
         "id": "3cde9b74e2cf03a6",
         "type": "ui_led",
         "z": "5e246f6c64b79f72",
-        "order": 25,
+        "order": 12,
         "group": "19542e2ab6026737",
         "width": 3,
         "height": 1,
@@ -4375,9 +4548,9 @@
         "type": "ui_artlessgauge",
         "z": "5e246f6c64b79f72",
         "group": "19542e2ab6026737",
-        "order": 28,
-        "width": 0,
-        "height": 0,
+        "order": 3,
+        "width": 25,
+        "height": 2,
         "name": "dnload bar",
         "icon": "",
         "label": "download",
@@ -4504,9 +4677,9 @@
         "z": "5e246f6c64b79f72",
         "name": "...back",
         "group": "19542e2ab6026737",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 15,
+        "width": 7,
+        "height": 2,
         "passthru": false,
         "label": "...back",
         "tooltip": "",
@@ -5420,6 +5593,146 @@
         "wires": [
             [
                 "f9988320eab561c3"
+            ]
+        ]
+    },
+    {
+        "id": "fd6a782f.8607a8",
+        "type": "inject",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "start",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 230,
+        "y": 280,
+        "wires": [
+            [
+                "f6d3c9af.1c6d18"
+            ]
+        ]
+    },
+    {
+        "id": "ff0ba1e2.f46ab",
+        "type": "ui_chart",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "group": "19542e2ab6026737",
+        "order": 1,
+        "width": 30,
+        "height": 7,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2466e014.fe459",
+        "type": "debug",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 890,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f6d3c9af.1c6d18",
+        "type": "file in",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "filename": "example.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "3d784d1.a733332",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "3d784d1.a733332",
+        "type": "csv",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "f3d8e5f0.29d548",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "f3d8e5f0.29d548",
+        "type": "function",
+        "z": "60463e3a.b7fb4",
+        "name": "graph generate",
+        "func": "\nfunction toTimestamp(strDate){\n     var datum = Date.parse(strDate);\n     return datum/1000;\n    }\nvar payload=msg.payload;\n\n\nvar data_out=[];\nvar a1=[];\nvar a2=[];\nvar a3=[];\nvar a4=[];\nfor(let i=0;i<payload.length;i++)\n{\n  \nvar Data= payload[i].Data.split(\"-\");\nvar t=Data[2]+\"/\"+Data[1]+\"/\"+Data[0];\nvar timestamp=toTimestamp(t+\" \"+payload[i][\"Godzina\"]);\n\n\nvar temp1={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Temp_RS-485\"]) };\nvar temp2={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Wilg_RS-485\"]) };\nvar temp3={ \"x\": timestamp, \"y\": parseInt(payload[i][\"Temperatura I\"])};\nvar temp4={\"x\": timestamp, \"y\": parseInt(payload[i][\"Wilgotność I\"])};\n\na1.push(temp1);\na2.push(temp2);\na3.push(temp3);\na4.push(temp4);\n \n \n //\n \n \n}\n\ndata_out=[a1,a2,a3,a4];\nmsg.payload=[{\n\"series\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"],\n\"data\":data_out,\n\"labels\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "2466e014.fe459",
+                "ff0ba1e2.f46ab"
             ]
         ]
     }
