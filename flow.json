@@ -5457,26 +5457,8 @@
         "y": 780,
         "wires": [
             [
-                "1770a18814956c21",
-                "f6d0cfaca12cf364"
+                "1770a18814956c21"
             ]
-        ]
-    },
-    {
-        "id": "f6d0cfaca12cf364",
-        "type": "bar-chart-data",
-        "z": "5e246f6c64b79f72",
-        "name": "bar-chart-data",
-        "x_interval": "hours",
-        "x_size": 24,
-        "unit": "",
-        "precision": 2,
-        "is_meter_reading": "False",
-        "agg_by": "max",
-        "x": 980,
-        "y": 880,
-        "wires": [
-            []
         ]
     }
 ]
