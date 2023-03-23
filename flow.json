@@ -3858,7 +3858,7 @@
         "id": "0fea3a5c5c8b26fb",
         "type": "ui_ui_control",
         "z": "1f71719cabb831b2",
-        "name": "WetterStats",
+        "name": "change tab",
         "events": "all",
         "x": 930,
         "y": 900,
