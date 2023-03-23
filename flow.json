@@ -5431,7 +5431,7 @@
         "wires": [
             [
                 "1770a18814956c21",
-                "ec346dafa0240b6b"
+                "609a9b16304de5f8"
             ]
         ]
     },
@@ -5476,6 +5476,33 @@
         "wires": [
             [
                 "943c4bacaa3a6163"
+            ]
+        ]
+    },
+    {
+        "id": "609a9b16304de5f8",
+        "type": "change",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 780,
+        "wires": [
+            [
+                "ec346dafa0240b6b"
             ]
         ]
     }
