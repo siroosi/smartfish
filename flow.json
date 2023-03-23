@@ -5273,7 +5273,7 @@
         "dot": false,
         "ymin": "",
         "ymax": "",
-        "removeOlder": 1,
+        "removeOlder": "24",
         "removeOlderPoints": "288",
         "removeOlderUnit": "3600",
         "cutout": 0,
@@ -5430,7 +5430,6 @@
         "y": 840,
         "wires": [
             [
-                "1770a18814956c21",
                 "609a9b16304de5f8"
             ]
         ]
@@ -5447,8 +5446,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 840,
+        "x": 1000,
+        "y": 820,
         "wires": []
     },
     {
@@ -5502,7 +5501,8 @@
         "y": 780,
         "wires": [
             [
-                "ec346dafa0240b6b"
+                "ec346dafa0240b6b",
+                "1770a18814956c21"
             ]
         ]
     }
