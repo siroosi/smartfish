@@ -172,14 +172,6 @@
         "width": 20
     },
     {
-        "id": "004d01a5caaafdb7",
-        "type": "ui_link",
-        "name": "Link 4",
-        "icon": "open_in_browser",
-        "target": "newtab",
-        "order": 5
-    },
-    {
         "id": "617551717e15cb3d",
         "type": "ui_tab",
         "name": "radar update",
@@ -398,22 +390,6 @@
         "order": 47,
         "width": 4,
         "height": 1
-    },
-    {
-        "id": "a1fb98672e603abd",
-        "type": "ui_link",
-        "name": "Link 6",
-        "icon": "open_in_browser",
-        "target": "newtab",
-        "order": 6
-    },
-    {
-        "id": "bae0dde6212b66f5",
-        "type": "ui_link",
-        "name": "Link 7",
-        "icon": "open_in_browser",
-        "target": "newtab",
-        "order": 7
     },
     {
         "id": "f2ce91973a37e240",
