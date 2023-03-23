@@ -12,7 +12,8 @@
         "node-red-node-ping": "0.3.3",
         "node-red-contrib-string": "1.0.0",
         "node-red-contrib-ui-artless-gauge": "0.3.12",
-        "node-red-contrib-buffer-array": "1.1.0"
+        "node-red-contrib-buffer-array": "1.1.0",
+        "@prescient-devices/node-red-contrib-downloadfile": "1.0.8"
     },
     "node-red": {
         "settings": {
