@@ -401,6 +401,28 @@
         "hidden": false
     },
     {
+        "id": "3daf053a2ab18be3",
+        "type": "ui_group",
+        "name": "btns",
+        "tab": "ca80ebfee8819239",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "98baea6935e40a44",
+        "type": "ui_group",
+        "name": "graph",
+        "tab": "ca80ebfee8819239",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "f2ce91973a37e240",
         "type": "inject",
         "z": "1f71719cabb831b2",
