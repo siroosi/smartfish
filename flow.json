@@ -5267,7 +5267,7 @@
         "label": "chart",
         "chartType": "line",
         "legend": "false",
-        "xformat": "HH:mm:ss",
+        "xformat": "payload.time",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
