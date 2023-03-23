@@ -5355,7 +5355,7 @@
         "sep": ",",
         "hdrin": "",
         "hdrout": "none",
-        "multi": "one",
+        "multi": "mult",
         "ret": "\\n",
         "temp": "time,date,temp,humid,windspeed,winddir,chance,liter",
         "skip": "0",
