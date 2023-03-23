@@ -3622,10 +3622,10 @@
         "bgcolor": "{{msg.background}}",
         "className": "",
         "icon": "",
-        "payload": "syscontrol",
+        "payload": "WetterStats",
         "payloadType": "str",
-        "topic": "WetterStats",
-        "topicType": "str",
+        "topic": "topic",
+        "topicType": "msg",
         "x": 710,
         "y": 900,
         "wires": [
