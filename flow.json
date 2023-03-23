@@ -3624,8 +3624,8 @@
         "icon": "",
         "payload": "syscontrol",
         "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
+        "topic": "WetterStats",
+        "topicType": "str",
         "x": 710,
         "y": 900,
         "wires": [
