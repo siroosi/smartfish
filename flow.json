@@ -10,7 +10,7 @@
     {
         "id": "5e246f6c64b79f72",
         "type": "tab",
-        "label": "Flow 2",
+        "label": "Wetter",
         "disabled": false,
         "info": "",
         "env": []
@@ -3957,7 +3957,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 300,
+        "x": 280,
         "y": 160,
         "wires": [
             [
@@ -4016,8 +4016,7 @@
         "y": 560,
         "wires": [
             [
-                "346d954bc9902978",
-                "dba0053219c0585b"
+                "346d954bc9902978"
             ]
         ]
     },
@@ -5111,7 +5110,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "dwd",
-        "x": 790,
+        "x": 950,
         "y": 160,
         "wires": []
     },
@@ -5261,43 +5260,8 @@
             [
                 "7b622830e968ce61",
                 "2a5e9387ee8d2568",
-                "8e337d9b3201b995",
-                "d8761a3409c23d85"
+                "8e337d9b3201b995"
             ]
         ]
-    },
-    {
-        "id": "d8761a3409c23d85",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 800,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "dba0053219c0585b",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1020,
-        "y": 80,
-        "wires": []
     }
 ]
