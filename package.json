@@ -14,7 +14,8 @@
         "node-red-contrib-buffer-array": "1.1.0",
         "@prescient-devices/node-red-contrib-downloadfile": "1.0.8",
         "node-red-contrib-cron-plus": "1.5.7",
-        "node-red-contrib-dwd-local-weather": "1.0.5"
+        "node-red-contrib-dwd-local-weather": "1.0.5",
+        "node-red-contrib-tesseract": "1.1.4"
     },
     "node-red": {
         "settings": {
