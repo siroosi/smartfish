@@ -169,7 +169,7 @@
         "tab": "35e38ec25a4260c6",
         "order": 1,
         "disp": true,
-        "width": 20
+        "width": 30
     },
     {
         "id": "617551717e15cb3d",
@@ -1686,8 +1686,8 @@
         "name": "wake",
         "group": "4fe5a80a239aed94",
         "order": 1,
-        "width": 20,
-        "height": 9,
+        "width": 30,
+        "height": 17,
         "passthru": false,
         "label": "WAKE ME UP",
         "tooltip": "",
