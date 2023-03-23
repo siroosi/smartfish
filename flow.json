@@ -147,7 +147,7 @@
         "type": "ui_tab",
         "name": "blank",
         "icon": "dashboard",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -176,7 +176,7 @@
         "type": "ui_tab",
         "name": "radar update",
         "icon": "dashboard",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -390,6 +390,15 @@
         "order": 47,
         "width": 4,
         "height": 1
+    },
+    {
+        "id": "ca80ebfee8819239",
+        "type": "ui_tab",
+        "name": "WetterStats",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "f2ce91973a37e240",
@@ -3607,7 +3616,7 @@
         "width": 4,
         "height": 3,
         "passthru": false,
-        "label": "1",
+        "label": "Wetter<br>Stats",
         "tooltip": "back to main sys page",
         "color": "",
         "bgcolor": "{{msg.background}}",
@@ -3620,7 +3629,9 @@
         "x": 710,
         "y": 900,
         "wires": [
-            []
+            [
+                "0fea3a5c5c8b26fb"
+            ]
         ]
     },
     {
@@ -3841,6 +3852,18 @@
             [
                 "18273ab4afbfd524"
             ]
+        ]
+    },
+    {
+        "id": "0fea3a5c5c8b26fb",
+        "type": "ui_ui_control",
+        "z": "1f71719cabb831b2",
+        "name": "WetterStats",
+        "events": "all",
+        "x": 930,
+        "y": 900,
+        "wires": [
+            []
         ]
     },
     {
