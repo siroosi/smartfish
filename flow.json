@@ -3644,7 +3644,7 @@
         "bgcolor": "{{msg.background}}",
         "className": "",
         "icon": "",
-        "payload": "wetterstats",
+        "payload": "WetterStats",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
