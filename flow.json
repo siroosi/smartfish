@@ -5421,7 +5421,7 @@
         "hdrout": "none",
         "multi": "one",
         "ret": "\\n",
-        "temp": "",
+        "temp": "time,date,temp,humid,windspeed,winddir,chance,liter",
         "skip": "0",
         "strings": true,
         "include_empty_strings": "",
@@ -5429,26 +5429,7 @@
         "x": 610,
         "y": 840,
         "wires": [
-            [
-                "341732fe138d1794"
-            ]
+            []
         ]
-    },
-    {
-        "id": "341732fe138d1794",
-        "type": "debug",
-        "z": "5e246f6c64b79f72",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 860,
-        "y": 840,
-        "wires": []
     }
 ]
