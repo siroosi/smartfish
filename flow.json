@@ -5293,8 +5293,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 830,
-        "y": 760,
+        "x": 930,
+        "y": 720,
         "wires": [
             []
         ]
@@ -5318,8 +5318,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 610,
-        "y": 960,
+        "x": 650,
+        "y": 1020,
         "wires": [
             [
                 "61efb1ea1ce6e292"
@@ -5334,12 +5334,13 @@
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
         "statusType": "auto",
         "x": 860,
-        "y": 960,
+        "y": 1020,
         "wires": []
     },
     {
@@ -5350,12 +5351,13 @@
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
         "statusType": "auto",
         "x": 860,
-        "y": 820,
+        "y": 940,
         "wires": []
     },
     {
@@ -5375,7 +5377,8 @@
         "wires": [
             [
                 "a82f5588.69ba6",
-                "f9988320eab561c3"
+                "f9988320eab561c3",
+                "f75ce21a8cafc020"
             ]
         ]
     },
@@ -5407,5 +5410,45 @@
                 "943c4bacaa3a6163"
             ]
         ]
+    },
+    {
+        "id": "f75ce21a8cafc020",
+        "type": "csv",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 840,
+        "wires": [
+            [
+                "341732fe138d1794"
+            ]
+        ]
+    },
+    {
+        "id": "341732fe138d1794",
+        "type": "debug",
+        "z": "5e246f6c64b79f72",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 860,
+        "y": 840,
+        "wires": []
     }
 ]
