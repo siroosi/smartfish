@@ -4639,7 +4639,7 @@
         "name": "wetter anzeige und logging",
         "info": "",
         "x": 170,
-        "y": 40,
+        "y": 100,
         "wires": []
     },
     {
