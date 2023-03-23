@@ -3038,7 +3038,7 @@
         "width": 2,
         "height": 2,
         "passthru": false,
-        "label": "<p style=“line-height: 50%“><font size=\"1\">shut<br>down</font></p>",
+        "label": "<p style=“line-height: 5%“><font size=\"1\">shut<br>down</font></p>",
         "tooltip": "",
         "color": "",
         "bgcolor": " #c0392b ",
