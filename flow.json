@@ -3932,33 +3932,6 @@
         ]
     },
     {
-        "id": "d60be81f1bd63444",
-        "type": "trigger",
-        "z": "5e246f6c64b79f72",
-        "name": "int5m",
-        "op1": "check",
-        "op2": "1",
-        "op1type": "str",
-        "op2type": "str",
-        "duration": "-5",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "min",
-        "reset": "false",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 470,
-        "y": 200,
-        "wires": [
-            [
-                "8e337d9b3201b995",
-                "2a5e9387ee8d2568",
-                "7b622830e968ce61"
-            ]
-        ]
-    },
-    {
         "id": "880b9dad88d8259e",
         "type": "ui_switch",
         "z": "5e246f6c64b79f72",
@@ -3988,8 +3961,8 @@
         "y": 160,
         "wires": [
             [
-                "d60be81f1bd63444",
-                "c39d32d2a8c8a33d"
+                "c39d32d2a8c8a33d",
+                "2b24272ca0954630"
             ]
         ]
     },
@@ -5256,5 +5229,39 @@
         "x": 915,
         "y": 600,
         "wires": []
+    },
+    {
+        "id": "2b24272ca0954630",
+        "type": "cronplus",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "persistDynamic": false,
+        "commandResponseMsgOutput": "output1",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 0/5 * * * ? *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "7b622830e968ce61",
+                "2a5e9387ee8d2568",
+                "8e337d9b3201b995"
+            ]
+        ]
     }
 ]
