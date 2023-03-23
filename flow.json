@@ -5300,24 +5300,6 @@
         ]
     },
     {
-        "id": "a1bf2e2c21df19f9",
-        "type": "tail",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "filetype": "text",
-        "split": "[\\r]{0,1}\\n",
-        "filename": "/home/fish/wetter.log.csv",
-        "inputs": 0,
-        "x": 430,
-        "y": 760,
-        "wires": [
-            [
-                "a82f5588.69ba6",
-                "f9988320eab561c3"
-            ]
-        ]
-    },
-    {
         "id": "a82f5588.69ba6",
         "type": "change",
         "z": "5e246f6c64b79f72",
@@ -5375,5 +5357,26 @@
         "x": 860,
         "y": 820,
         "wires": []
+    },
+    {
+        "id": "943c4bacaa3a6163",
+        "type": "file in",
+        "z": "5e246f6c64b79f72",
+        "name": "",
+        "filename": "/home/fish/wetter.log.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 390,
+        "y": 940,
+        "wires": [
+            [
+                "a82f5588.69ba6",
+                "f9988320eab561c3"
+            ]
+        ]
     }
 ]
