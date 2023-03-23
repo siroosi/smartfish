@@ -45,7 +45,7 @@
             "darkTheme": {
                 "default": "#097479",
                 "baseColor": "#d56a00",
-                "baseFont": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace",
+                "baseFont": "Arial Narrow,Nimbus Sans L,sans-serif",
                 "edited": true,
                 "reset": false
             },
@@ -98,7 +98,7 @@
                     "edited": false
                 },
                 "base-font": {
-                    "value": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace"
+                    "value": "Arial Narrow,Nimbus Sans L,sans-serif"
                 }
             },
             "angularTheme": {
