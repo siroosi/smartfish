@@ -5422,9 +5422,23 @@
         "rules": [
             {
                 "t": "set",
-                "p": "payload",
+                "p": "payload.temp",
                 "pt": "msg",
                 "to": "payload.temp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.time",
+                "pt": "msg",
+                "to": "payload.time",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.date",
+                "pt": "msg",
+                "to": "payload.date",
                 "tot": "msg"
             }
         ],
