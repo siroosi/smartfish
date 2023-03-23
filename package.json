@@ -16,7 +16,8 @@
         "node-red-contrib-cron-plus": "1.5.7",
         "node-red-contrib-dwd-local-weather": "1.0.5",
         "node-red-contrib-tesseract": "1.1.4",
-        "node-red-contrib-web-worldmap": "2.34.0"
+        "node-red-contrib-web-worldmap": "2.34.0",
+        "node-red-node-tail": "0.4.0"
     },
     "node-red": {
         "settings": {
