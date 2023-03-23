@@ -5256,31 +5256,6 @@
         ]
     },
     {
-        "id": "a82f5588.69ba6",
-        "type": "change",
-        "z": "5e246f6c64b79f72",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload[[-5,-4,-3,-2,-1]]",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 650,
-        "y": 1020,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "f9988320eab561c3",
         "type": "debug",
         "z": "5e246f6c64b79f72",
@@ -5293,8 +5268,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1040,
-        "y": 880,
+        "x": 1220,
+        "y": 940,
         "wires": []
     },
     {
@@ -5313,7 +5288,6 @@
         "y": 940,
         "wires": [
             [
-                "a82f5588.69ba6",
                 "f75ce21a8cafc020"
             ]
         ]
@@ -5339,8 +5313,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 680,
+        "x": 160,
+        "y": 920,
         "wires": [
             [
                 "943c4bacaa3a6163"
@@ -5355,7 +5329,7 @@
         "sep": ",",
         "hdrin": true,
         "hdrout": "none",
-        "multi": "mult",
+        "multi": "one",
         "ret": "\\n",
         "temp": "time,date,temp,humid,windspeed,winddir,chance,liter",
         "skip": "0",
@@ -5363,7 +5337,7 @@
         "include_empty_strings": "",
         "include_null_values": "",
         "x": 610,
-        "y": 840,
+        "y": 940,
         "wires": [
             [
                 "609a9b16304de5f8"
@@ -5382,8 +5356,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1000,
-        "y": 820,
+        "x": 1020,
+        "y": 980,
         "wires": []
     },
     {
@@ -5406,8 +5380,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
-        "y": 940,
+        "x": 160,
+        "y": 960,
         "wires": [
             [
                 "943c4bacaa3a6163"
@@ -5447,8 +5421,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 780,
+        "x": 810,
+        "y": 940,
         "wires": [
             [
                 "1770a18814956c21",
@@ -5463,8 +5437,8 @@
         "name": "",
         "bufferLen": "8",
         "startWhenFilled": false,
-        "x": 830,
-        "y": 880,
+        "x": 1030,
+        "y": 940,
         "wires": [
             [
                 "f9988320eab561c3"
