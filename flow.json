@@ -1234,7 +1234,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1250,
+        "x": 1230,
         "y": 200,
         "wires": [
             [
